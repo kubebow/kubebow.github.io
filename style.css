@@ -12,24 +12,48 @@ body {
 
 img {
 	border-style: solid;
-	border-width: 10px;
+	border-width: 5px;
+	box-sizing: border-box;
 }
 
+/* Text at the very top and bottom of the page */
+.title {
+	text-align: center;
+}
+
+/* Container for everything, excluding title */
+#centerDiv {
+	/*background-color:grey;*/
+	display: flex;
+	justify-content: center;
+}
+
+/* Artist picture and info text container.
+Text is contained in a sub-container in order to allow the artist pic to be center-aligned. */
+#infoDiv {
+	/*background-color:LightSkyBlue;*/
+	width:25%;
+	margin: 5px;
+	text-align: center; /* Used for the image only */
+}
+/* Container for link buttons */
 #buttonDiv {
+	/*background-color:lightpink;*/
+	margin: 5px;
+	width:25%;
 	display: flex;
 	flex-direction: column;
-}
+} /* Individual buttons */
 .button {
 	color: black;
 	margin: 5px;
-	width: 25%;
 	background-color: white;
 	text-align: center;
 	border-style: solid;
 	border-width: 5px;
 }
 
-
+/* Tomaroen colors for highlights and buttons */
 .faas {background-color: orange;}
 .slaa {background-color: purple;}
 .lii  {background-color: green;}
