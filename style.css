@@ -60,16 +60,9 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	border-width: 5px;
 	
 	background-color: white;
-	/*
-	align-items: center;
-	flex-direction: row;
-	*/
-}
-/*
-.biLeft {float: left;}
-.biRight {float: right;}
-*/
+} /* WIP: Icons on the horizontal ends of each button*/
 .buttonIcon {
+	display: none; /* WIP */
 	vertical-align:middle;
 	border-width: 1px;
 	width: 10%;
