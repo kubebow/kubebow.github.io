@@ -66,4 +66,9 @@ drawn to the aesthetic of *basic* html websites.
 	3. 03_formlessLibrary
 	4. 04_theOutside
 	5. 99_backups
+- Blog-ish stuff
+	- Free stuff I like
+	- Albums I like
+	- Stuff I'm nostalgic about
+- Shuffle button
 - Piano

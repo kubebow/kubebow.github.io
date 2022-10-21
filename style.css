@@ -6,6 +6,46 @@ body {
 	background-color: white;
 	color: black;
 	font-family: Verdana;
-	text-align: center;
 	image-rendering: crisp-edges;
+	background-size: 100%;
 }
+
+img {
+	border-style: solid;
+	border-width: 10px;
+}
+
+#buttonDiv {
+	display: flex;
+	flex-direction: column;
+}
+.button {
+	color: black;
+	margin: 5px;
+	width: 25%;
+	background-color: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
+.faas {background-color: orange;}
+.slaa {background-color: purple;}
+.lii  {background-color: green;}
+.daw  {background-color: red;}
+.ray  {background-color: yellow;}
+.may  {background-color: blue;}
+.sor  {background-color: lime;}
+.laug {background-color: magenta;}
+.faph {background-color: maroon;}
+.iis  {background-color: saddlebrown;}
+.tiib {background-color: orangered;}
+.dol  {background-color: dodgerblue;}
+.reyn {background-color: greenyellow;}
+.semi {background-color: black;}
+.demi {background-color: dimgrey;}
+.hemi {background-color: white;}
+.tiik {background-color: springgreen;}
+.maak {background-color: cyan;}
+.tuuk {background-color: navy;}
