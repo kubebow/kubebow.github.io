@@ -7,38 +7,37 @@
 Θ The reason why I decided to do this though is that I, being the victim of nostalgia I am, really am 
 drawn to the aesthetic of *basic* html websites.<br>
 Θ I also have some ideas up my sleeve, although I'll keep the specifics a surprise for now.<br>
-## Carrd Layout
+## Carrd Remake TODO
 *This project's first major version will be the same functionally as the Carrd, and will have roughly the same layout*
-1. Head
-	- Title
+- Head
+	- ~~Title~~
 	- Left
-		1. Artist Picture
-		2. Carrd Description
-		3. Square1 Links/Descriptions ***`Square1 will probably be moved to this website`***
-		4. Contact email
-	- Right (Buttons)
-		1. YouTube (KubeBow) ***`Free Downloads`***
-		2. YouTube (DJ SQARXZ) ***`Bandcamp`***
-		3. Square1 Drive ***`YT Thta, Spotify, Apple Music, etc`***
-		4. Bandcamp ***`SoundCloud`***
-		5. SoundCloud ***`YT 2nd`***
-		6. stupid ass bird ***`YT Ovrlp`***
-		7. YouTube (Kaden B.) ***`Twitter (stupid ass bird)`***
-	- :)
-2. Latest
-	1. Teaser
+		- ~~Artist Picture~~
+		- ~~Carrd Description~~
+		- ~~Square1 Links/Descriptions~~ ***`Temp; Square1 will probably be moved to this website`***
+	- Buttons ***`All have working links, uncrossed need non-ph icon`***
+		- ~~YouTube (KubeBow)~~ ***`Free Downloads`***
+		- ~~YouTube (DJ SQARXZ)~~ ***`Bandcamp`***
+		- Square1 Drive ***`YT Thta, Spotify, Apple Music, etc`***
+		- Bandcamp ***`SoundCloud`***
+		- SoundCloud ***`YT 2nd`***
+		- stupid ass bird ***`YT Ovrlp`***
+		- YouTube (Kaden B.) ***`Twitter (stupid ass bird)`***
+	- ~~Contact / :)~~
+- Latest
+	- Teaser
 		- Section Title
 		- Image (Click as link)
 		- List of teaser links
-	2. Release
+	- Release
 		- Section Title
 		- Project name
 		- Format and moniker
 		- Flavor text / description
 		- Image (Click as link)
 		- Text clarifying image click
-3. All Releases
-	1. Grid (Unreleased is `LaugTuuk`)
+- All Releases
+	- Grid (Unreleased is `LaugTuuk`)
 		- Release Period
 		- Title
 		- Moniker(s) ***`Use PM formatting`***
@@ -48,32 +47,16 @@ drawn to the aesthetic of *basic* html websites.<br>
 		- Teasers/Samplers
 		- Links
 		- Free? ***`Use checkbox instead`***
-	2. Grid description and key acronyms
-	3. Cover art gallery ***`Include in grid instead of being awkwardly at the bottom`***
-## TODO List (Current)
+	- Grid description and key acronyms
+	- Cover art gallery ***`Include in grid instead of being awkwardly at the bottom`***
+## Secondary TODO List (Current)
 - Technical Stuff
 	- [ ] Font
 	- [ ] Readibility (better BG contrast, highlight, whatever)
 	- [ ] Favicon
-- Index
-	- [ ] Head remake
-		- [x] Title
-		- [x] Artist Pic
-		- [x] Carrd Description
-		- [x] Square1 Links/Descriptions ***`Temp`***
-		- [ ] Buttons
-			- [x] Placeholder Icons
-			- [ ] Relevant Icons ***`(2/7)`***
-			- [x] Working links
-		- [x] Contact email
-		- [x] :)
-	- Latest
-		- ...
-	- All Releases
-		- ...
-	- Small new stuff
-		- [x] Under construction + carrd link
-		- [ ] Foreboding door
+- Small new stuff
+	- [x] Under construction + carrd link
+	- [ ] Foreboding door
 ## TODO (Past current goal)
 - Square1 Update
 	- Square1 Root
