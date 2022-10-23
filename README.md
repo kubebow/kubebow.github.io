@@ -1,12 +1,12 @@
 # KubeBow GitHub Page
 *A Replacement for [my Carrd](https://KubeBow.carrd.co)*
 ## Description
-Θ Currently I use carrd.co to host a small website with info about me as an artist and my projects.
-Θ Although it's ultimately just a space to link all my accounts, I've found myself often tweaking it to suit my style as an artist.
-Θ I like Carrd since its easy to manage, but it also is a little limiting sometimes.
+Θ Currently I use carrd.co to host a small website with info about me as an artist and my projects.<br>
+Θ Although it's ultimately just a space to link all my accounts, I've found myself often tweaking it to suit my style as an artist.<br>
+Θ I like Carrd since its easy to manage, but it also is a little limiting sometimes.<br>
 Θ The reason why I decided to do this though is that I, being the victim of nostalgia I am, really am 
-drawn to the aesthetic of *basic* html websites.
-Θ I also have some ideas up my sleeve, although I'll keep the specifics a surprise for now.
+drawn to the aesthetic of *basic* html websites.<br>
+Θ I also have some ideas up my sleeve, although I'll keep the specifics a surprise for now.<br>
 ## Carrd Layout
 *This project's first major version will be the same functionally as the Carrd, and will have roughly the same layout*
 1. Head
@@ -62,8 +62,8 @@ drawn to the aesthetic of *basic* html websites.
 		- [x] Carrd Description
 		- [x] Square1 Links/Descriptions ***`Temp`***
 		- [ ] Buttons
-			- [ ] Placeholder Icons
-			- [ ] Relevant Icons
+			- [x] Placeholder Icons
+			- [ ] Relevant Icons ***`(2/7)`***
 			- [x] Working links
 		- [x] Contact email
 		- [x] :)

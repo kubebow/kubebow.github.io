@@ -54,15 +54,18 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	text-align: center;
 	
 	width:100%;
-	display: flex;
-	justify-content: space-around;
 	border-style: solid;
 	border-width: 5px;
 	
 	background-color: white;
 } /* WIP: Icons on the horizontal ends of each button*/
+.buttonInnerDiv {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
 .buttonIcon {
-	display: none; /* WIP */
+	/* display: none;  WIP */
 	vertical-align:middle;
 	border-width: 1px;
 	width: 10%;
