@@ -10,11 +10,10 @@ drawn to the aesthetic of *basic* html websites.<br>
 ## Carrd Remake TODO
 *This project's first major version will be the same functionally as the Carrd, and will have roughly the same layout*
 - Head
-	- ~~Title~~
-	- Left
-		- ~~Artist Picture~~
-		- ~~Carrd Description~~
-		- ~~Square1 Links/Descriptions~~ ***`Temp; Square1 will probably be moved to this website`***
+	- ~~Title, Contact, etc~~
+	- ~~Artist Picture~~
+	- ~~Site Description~~
+	- ~~Square1 Links/Descriptions~~ ***`Temp; Square1 will probably be moved to this website`***
 	- Buttons ***`All have working links, uncrossed need non-ph icon`***
 		- ~~YouTube (KubeBow)~~ ***`Free Downloads`***
 		- ~~YouTube (DJ SQARXZ)~~ ***`Bandcamp`***
@@ -23,19 +22,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 		- SoundCloud ***`YT 2nd`***
 		- stupid ass bird ***`YT Ovrlp`***
 		- YouTube (Kaden B.) ***`Twitter (stupid ass bird)`***
-	- ~~Contact / :)~~
-- Latest
-	- Teaser
-		- Section Title
-		- Image (Click as link)
-		- List of teaser links
-	- Release
-		- Section Title
-		- Project name
-		- Format and moniker
-		- Flavor text / description
-		- Image (Click as link)
-		- Text clarifying image click
+- ~~Latest~~
 - All Releases
 	- Grid (Unreleased is `LaugTuuk`)
 		- Release Period
@@ -54,6 +41,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- [ ] Font
 	- [ ] Readibility (better BG contrast, highlight, whatever)
 	- [ ] Favicon
+	- [ ] Github Pages update lag workaround
 - Small new stuff
 	- [x] Under construction + carrd link
 	- [ ] Foreboding door
@@ -71,6 +59,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- Free stuff I like
 	- Albums I like
 	- Stuff I'm nostalgic about
+	- Teaser backlog
 - Fun
 	- Shuffle button
 	- Piano
