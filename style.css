@@ -76,6 +76,21 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	vertical-align:middle;
 	border-width: 1px;
 	width: 10%;
+} /* Alternate button class */
+.bd {
+	padding: 10px;
+	margin: 5px;
+	
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	
+	width:100%;
+	border-style: dashed;
+	border-width: 5px;
+	
+	background-color: white;
 }
 
 /* Latest section */
@@ -115,15 +130,16 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	*/
 }
 
-/* WIP section */
+/* TEST
 #CZtest {
 	justify-content: center;
 	display: flex;
 }
+*/
 
 /* Tomaroen colors for highlights and buttons */
 .faas {background-color: orange;}
-.slaa {background-color: purple;}
+.slaa {background-color: MediumOrchid;}
 .lii  {background-color: green;}
 .daw  {background-color: red;}
 .ray  {background-color: yellow;}
@@ -135,9 +151,49 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 .tiib {background-color: orangered;}
 .dol  {background-color: dodgerblue;}
 .reyn {background-color: greenyellow;}
-.semi {background-color: black;}
+.semi {background-color: rgba(50,50,50,255);}
 .demi {background-color: dimgrey;}
 .hemi {background-color: white;}
 .tiik {background-color: springgreen;}
 .maak {background-color: cyan;}
-.tuuk {background-color: navy;}
+.tuuk {background-color: darkblue;}
+/* Alternate hover colors */
+.H-faas:hover {background-color: orange;}
+.H-slaa:hover {background-color: MediumOrchid;}
+.H-lii:hover  {background-color: green;}
+.H-daw:hover  {background-color: red;}
+.H-ray:hover  {background-color: yellow;}
+.H-may:hover  {background-color: blue;}
+.H-sor:hover  {background-color: lime;}
+.H-laug:hover {background-color: magenta;}
+.H-faph:hover {background-color: maroon;}
+.H-iis:hover  {background-color: saddlebrown;}
+.H-tiib:hover {background-color: orangered;}
+.H-dol:hover  {background-color: dodgerblue;}
+.H-reyn:hover {background-color: greenyellow;}
+.H-semi:hover {background-color: rgba(50,50,50,255);}
+.H-demi:hover {background-color: dimgrey;}
+.H-hemi:hover {background-color: white;}
+.H-tiik:hover {background-color: springgreen;}
+.H-maak:hover {background-color: cyan;}
+.H-tuuk:hover {background-color: darkblue;}
+/* Faded color variants */
+.F-faas {background-color: burlywood;}
+.F-slaa {background-color: plum;}
+.F-lii  {background-color: mediumseagreen;}
+.F-daw  {background-color: lightcoral;}
+.F-ray  {background-color: peachpuff;}
+.F-may  {background-color: lightsteelblue;}
+.F-sor  {background-color: palegreen;}
+.F-laug {background-color: violet;}
+.F-faph {background-color: rosybrown;}
+.F-iis  {background-color: tan;}
+.F-tiib {background-color: darksalmon;}
+.F-dol  {background-color: lightskyblue;}
+.F-reyn {background-color: olive;}
+.F-semi {background-color: grey;}
+.F-demi {background-color: darkgrey;}
+.F-hemi {background-color: lightgrey;}
+.F-tiik {background-color: Aquamarine;}
+.F-maak {background-color: lightblue;}
+.F-tuuk {background-color: steelblue;}
