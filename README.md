@@ -23,38 +23,29 @@ drawn to the aesthetic of *basic* html websites.<br>
 		- stupid ass bird ***`YT Ovrlp`***
 		- YouTube (Kaden B.) ***`Twitter (stupid ass bird)`***
 - ~~Latest~~
-- All Releases
-	- Grid (Unreleased is `LaugTuuk`)
-		- Release Period
-		- Title
-		- Moniker(s) ***`Use PM formatting`***
-		- Format
-		- Release Date ***`Include Hemi date?`***
-		- Duration
-		- Teasers/Samplers
-		- Links
-		- Free? ***`Use checkbox instead`***
-	- Grid description and key acronyms
-	- Cover art gallery ***`Include in grid instead of being awkwardly at the bottom`***
+- ~~Discography~~
 ## Secondary TODO List (Current)
 - Technical Stuff
 	- [ ] Font
 	- [ ] Readibility (better BG contrast, highlight, whatever)
 	- [ ] Favicon
-	- [ ] Github Pages update lag workaround
 - Small new stuff
 	- [x] Under construction + carrd link
 	- [ ] Foreboding door
 ## TODO (Past current goal)
-- Square1 Update
-	- Square1 Root
-		- Readme
-		- Save file
-	- 01_freeDownloads (?)
-	- 02_looseVibesGallery
-	- 03_formlessLibrary
-	- 04_theOutside
-	- 99_backups
+- Upgrade
+	- Releases
+		- Subpage
+		- Dropdown menus
+	- Square1
+		- Square1 Root
+			- Readme
+			- Save file
+		- 01_freeDownloads (?)
+		- 02_looseVibesGallery
+		- 03_formlessLibrary
+		- 04_theOutside
+		- 99_backups
 - Blog-ish stuff
 	- Free stuff I like
 	- Albums I like
