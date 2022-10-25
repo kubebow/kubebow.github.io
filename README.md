@@ -13,18 +13,20 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- ~~Title, Contact, etc~~
 	- ~~Artist Picture~~
 	- ~~Site Description~~
-	- ~~Square1 Links/Descriptions~~ ***`Temp; Square1 will probably be moved to this website`***
+	- ~~Square1 Links/Descriptions~~
 	- Buttons ***`All have working links, uncrossed need non-ph icon`***
-		- ~~YouTube (KubeBow)~~ ***`Free Downloads`***
-		- ~~YouTube (DJ SQARXZ)~~ ***`Bandcamp`***
-		- Square1 Drive ***`YT Thta, Spotify, Apple Music, etc`***
-		- Bandcamp ***`SoundCloud`***
-		- SoundCloud ***`YT 2nd`***
-		- stupid ass bird ***`YT Ovrlp`***
-		- YouTube (Kaden B.) ***`Twitter (stupid ass bird)`***
+		- ~~YouTube (KubeBow)~~
+		- ~~YouTube (DJ SQARXZ)~~
+		- Square1 Drive
+		- Bandcamp
+		- SoundCloud
+		- stupid ass bird
+		- YouTube (Kaden B.)
 - ~~Latest~~
 - ~~Discography~~
-## Secondary TODO List (Current)
+## Secondary TODO List
+*Once the "Carrd Remake TODO" list is done, the following need to be complete before the site is no longer considered under construction.*
+- Split into subpages / Less info on one page
 - Technical Stuff
 	- [ ] Font
 	- [ ] Readibility (better BG contrast, highlight, whatever)
@@ -34,9 +36,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- [ ] Foreboding door
 ## TODO (Past current goal)
 - Upgrade
-	- Releases
-		- Subpage
-		- Dropdown menus
+	- Releases further info (Dropdown menus?)
 	- Square1
 		- Square1 Root
 			- Readme
@@ -46,12 +46,21 @@ drawn to the aesthetic of *basic* html websites.<br>
 		- 03_formlessLibrary
 		- 04_theOutside
 		- 99_backups
+	- New button layout
+		- Free Downloads
+		- Bandcamp
+		- YT Thta + Streaming
+		- SoundCloud
+		- YT 2nd
+		- YT Ovrlp
+		- Twitter
 - Blog-ish stuff
 	- Free stuff I like
 	- Albums I like
 	- Stuff I'm nostalgic about
 	- Teaser backlog
 - Fun
+	- Name logo jingle
 	- Shuffle button
 	- Piano
 	- Tomaroen?
