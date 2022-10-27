@@ -26,14 +26,13 @@ drawn to the aesthetic of *basic* html websites.<br>
 - ~~Discography~~
 ## Secondary TODO List
 *Once the "Carrd Remake TODO" list is done, the following need to be complete before the site is no longer considered under construction.*
-- Split into subpages / Less info on one page
+- ~~Carrd link in case of site weirdness~~
+- ~~Split into subpages / Less info on one page~~
 - Technical Stuff
-	- [ ] Font
-	- [ ] Readibility (better BG contrast, highlight, whatever)
-	- [ ] Favicon
-- Small new stuff
-	- [x] Under construction + carrd link
-	- [ ] Foreboding door
+	- Font
+	- Readibility (better BG contrast, highlight, whatever)
+	- Favicon
+- Foreboding door
 ## TODO (Past current goal)
 - Upgrade
 	- Releases further info (Dropdown menus?)

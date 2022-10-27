@@ -30,127 +30,37 @@ p {
 	font-size: 16px;
 }
 
-/* Top section with main info and buttons */
-#headDiv {
-	/*background-color:grey;*/
-	display: flex;
-	justify-content: center;
-}
-
-/* Artist picture and info text container.
-Text is contained in a sub-container in order to allow the artist pic to be center-aligned. */
-#infoDiv {
-	width:25%;
-	margin: 5px;
-	text-align: center; /* Used for the image only */
-} /* Text paragraph */
-#desc {
-	font-size: 24px;
-}
-
-/* Container for all link buttons */
-#buttonDiv {
-	/*background-color:lightpink;*/
-	margin: 5px;
-	width:25%;
-	display: flex;
-	flex-direction: column;
-} /* Individual button: <a> tag */
-.button {
-	padding: 10px;
-	margin: 5px;
-	
-	text-decoration: none;
-	font-size: 20px;
-	color: black;
+/* All Releases section */
+#discogGrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+	/* Borders and lines, Background is handled by .discogItem */
+	gap: 1px;
+	padding: 3px;
+	background-color: rgba(255, 255, 255, 0.5);
+} /* Grid item */
+.discogItem {
+	padding: 10px 10px;
 	text-align: center;
 	
-	width:100%;
 	border-style: solid;
 	border-width: 5px;
-	
-	background-color: white;
-} /* Individual button: <div> tag inside <a> */
-.buttonInnerDiv {
-	display: flex;
-	justify-content: space-between;
-	align-items:center;
-} /* Button icons on each horizontal end */
-.buttonIcon {
+} /* Style override for top row discogItems */
+.discogCol {
+	padding: 20px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: rgba(0, 0, 0, 0.5);
+	/*
+	padding: 20px 25px;
+	*/
+} /* Cover art images */
+.discogArt {
 	vertical-align:middle;
-	border-width: 1px;
-	width: 10%;
-} /* Alternate button class */
-.bd {
-	padding: 10px;
-	margin: 5px;
-	
-	text-decoration: none;
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	
-	width:100%;
-	border-style: dashed;
 	border-width: 5px;
-	
-	background-color: white;
-}
-
-/* Latest section */
-#latest {
-	display: flex;
-	justify-content: center;
-	/*
-	margin: 1px;
-	width:25%;
-	flex-direction: column;
-	*/
-} /* Release sub-section */
-#latestRelease {
-	width: 30%;
-	text-align: center;
-	/*
-	text-align: right;
-	justify-content: flex-end;
-	background-color:lightpink;
-	*/
-} /* Cover art for latest release section */
-#latestCover {
-	width: 45%;
-} /* Teaser sub-section */
-#latestTeaser {
-	width: 30%;
-	text-align: center;
-	/*
-	text-align: left;
-	justify-content: flex-start;
-	background-color:LightSkyBlue;
-	*/
-}
-
-/* Subpage button section */
-#subSection {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	
-	width:100%;
-} /* Individual button */
-.subButton {
-	width:25%;
-	padding: 10px;
-	margin: 5px;
-	
-	text-decoration: none;
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	
-	border-style: solid;
-	border-width: 5px;
-	
-	background-color: white;
+	width: 100%;
 }
 
 /* Tomaroen colors for highlights and buttons */
