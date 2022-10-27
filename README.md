@@ -32,6 +32,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- Font
 	- Readibility (better BG contrast, highlight, whatever)
 	- Favicon
+	- Discord Embed
 - Foreboding door
 ## TODO (Past current goal)
 - Upgrade
