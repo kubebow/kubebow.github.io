@@ -105,7 +105,7 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	flex-direction: column;
 	*/
 } /* Release sub-section */
-#latestRelease {
+.latestRelease {
 	width: 30%;
 	text-align: center;
 	/*
@@ -114,7 +114,7 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	background-color:lightpink;
 	*/
 } /* Cover art for latest release section */
-#latestCover {
+.latestCover {
 	width: 45%;
 } /* Teaser sub-section */
 #latestTeaser {
