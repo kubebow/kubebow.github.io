@@ -1,40 +1,18 @@
 # KubeBow GitHub Page
-*A Replacement for [my Carrd](https://KubeBow.carrd.co)*
+A Replacement for [my Carrd](https://KubeBow.carrd.co)<br>
+Although the Carrd will be less frequently updated, I will keep it up (Mainly because Github Pages sometimes causes really weird artifacts in the time it takes for the site to update)
 ## Description
-Θ Currently I use carrd.co to host a small website with info about me as an artist and my projects.<br>
+Θ I used to primarily use carrd.co to host a small website with info about me as an artist and my projects.<br>
 Θ Although it's ultimately just a space to link all my accounts, I've found myself often tweaking it to suit my style as an artist.<br>
 Θ I like Carrd since its easy to manage, but it also is a little limiting sometimes.<br>
-Θ The reason why I decided to do this though is that I, being the victim of nostalgia I am, really am 
-drawn to the aesthetic of *basic* html websites.<br>
-Θ I also have some ideas up my sleeve, although I'll keep the specifics a surprise for now.<br>
-## Carrd Remake TODO
-*This project's first major version will be the same functionally as the Carrd, and will have roughly the same layout*
-- Head
-	- ~~Title, Contact, etc~~
-	- ~~Artist Picture~~
-	- ~~Site Description~~
-	- ~~Square1 Links/Descriptions~~
-	- Buttons ***`All have working links, uncrossed need non-ph icon`***
-		- ~~YouTube (KubeBow)~~
-		- ~~YouTube (DJ SQARXZ)~~
-		- Square1 Drive
-		- Bandcamp
-		- SoundCloud
-		- stupid ass bird
-		- YouTube (Kaden B.)
-- ~~Latest~~
-- ~~Discography~~
-## Secondary TODO List
-*Once the "Carrd Remake TODO" list is done, the following need to be complete before the site is no longer considered under construction.*
-- ~~Carrd link in case of site weirdness~~
-- ~~Split into subpages / Less info on one page~~
+Θ Recently I decided to replace my carrd with a nostalgic and ***basic*** html website, which is what this project is.<br>
+Θ As of 10/27/2022, this project is no longer considered under construction and I will now be replacing the links to my Carrd on my accounts with a link to this Github Page.<br>
+Θ Now that I have the basic functionality out of the way, I'm going to start working on a lot more stuff that could only be possible on a website that I have full control over.<br>
+## TODO
 - Technical Stuff
 	- Font
-	- Readibility (better BG contrast, highlight, whatever)
-	- Favicon
-	- Discord Embed
-- Foreboding door
-## TODO (Past current goal)
+	- 404 Embed
+	- Better Readibility? (better BG contrast, highlight, whatever)
 - Upgrade
 	- Releases further info (Dropdown menus?)
 	- Square1
@@ -60,6 +38,7 @@ drawn to the aesthetic of *basic* html websites.<br>
 	- Stuff I'm nostalgic about
 	- Teaser backlog
 - Fun
+	- Foreboding door
 	- Name logo jingle
 	- Shuffle button
 	- Piano
