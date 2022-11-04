@@ -13,6 +13,7 @@ Although the Carrd will be less frequently updated, I will keep it up (Mainly be
 	- Font
 	- 404 Embed
 	- Better Readibility? (better BG contrast, highlight, whatever)
+	- Mobile version
 - Upgrade
 	- Releases further info (Dropdown menus?)
 	- Square1
