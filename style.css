@@ -99,6 +99,7 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 #latest {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	/*
 	margin: 1px;
 	width:25%;
