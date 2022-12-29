@@ -1,0 +1,171 @@
+/* Strings CSS */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+	image-rendering: crisp-edges;
+	background-size: 100%;
+	text-align: center;
+	background-image: url('bg.jpg');
+}
+img {
+	border-style: solid;
+	border-width: 5px;
+	box-sizing: border-box;
+}
+hr {
+	border: 10px dashed black;
+}
+h1 {
+	font-size: 48px;
+}
+p {
+	font-size: 16px;
+}
+
+#buttonDiv { /* Container for all MSGs */
+	/*background-color:lightpink;*/
+	margin: 5px;
+	gap:5px;
+	width:90%;
+	display: flex;
+	flex-direction: column;
+	} 
+.button { /* Colored msg */
+	padding: 10px;
+	margin: 5px;
+	
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	
+	width:100%;
+	border-style: solid;
+	border-width: 5px;
+	
+	background-color: white;
+	}
+.bd { /* Uncolored msg */
+	padding: 10px;
+	margin: 5px;
+	
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	
+	width:100%;
+	border-style: dashed;
+	border-width: 5px;
+	
+	background-color: white;
+	}
+.topic { /* Topic header msg */
+	padding-top:    30px;
+	padding-right:  10px;
+	padding-bottom: 30px;
+	padding-left:   10px;
+	margin: 5px;
+	margin-top: 100px;
+	
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	
+	width:50%;
+	border-style: double;
+	border-width: 5px;
+	
+	background-color: rgba(255,255,255,0.5);
+	}
+.buttonInnerDiv { /* Used for all MSGs, holds content */
+	width:100%;
+	height:100%;
+	display: flex;
+	align-items:center;
+	align-content:center;
+	gap: 3%;
+	}
+/*
+	justify-content: stretch;
+	align-items: stretch;
+*/
+.buttonIcon { /* PFP icon */
+	vertical-align:middle;
+	border-width: 1px;
+	width: 5%;
+	}
+.msg { /* Message text */
+	flex-shrink: 16; /* default 1 */
+	}
+.attachment{
+	border-style: none;
+	width: 40%;
+	}
+
+.dread {background-color:black; color:red;}
+
+/* Tomaroen colors for highlights and buttons */
+.faas {background-color: orange;}
+.slaa {background-color: MediumOrchid;}
+.lii  {background-color: green;}
+.daw  {background-color: red;}
+.ray  {background-color: yellow;}
+.may  {background-color: blue;}
+.sor  {background-color: lime;}
+.laug {background-color: magenta;}
+.faph {background-color: maroon;}
+.iis  {background-color: saddlebrown;}
+.tiib {background-color: orangered;}
+.dol  {background-color: dodgerblue;}
+.reyn {background-color: greenyellow;}
+.semi {background-color: rgba(50,50,50,255);}
+.demi {background-color: dimgrey;}
+.hemi {background-color: white;}
+.tiik {background-color: springgreen;}
+.maak {background-color: cyan;}
+.tuuk {background-color: darkblue;}
+/* Alternate hover colors */
+.H-faas:hover {background-color: orange;}
+.H-slaa:hover {background-color: MediumOrchid;}
+.H-lii:hover  {background-color: green;}
+.H-daw:hover  {background-color: red;}
+.H-ray:hover  {background-color: yellow;}
+.H-may:hover  {background-color: blue;}
+.H-sor:hover  {background-color: lime;}
+.H-laug:hover {background-color: magenta;}
+.H-faph:hover {background-color: maroon;}
+.H-iis:hover  {background-color: saddlebrown;}
+.H-tiib:hover {background-color: orangered;}
+.H-dol:hover  {background-color: dodgerblue;}
+.H-reyn:hover {background-color: greenyellow;}
+.H-semi:hover {background-color: rgba(50,50,50,255);}
+.H-demi:hover {background-color: dimgrey;}
+.H-hemi:hover {background-color: white;}
+.H-tiik:hover {background-color: springgreen;}
+.H-maak:hover {background-color: cyan;}
+.H-tuuk:hover {background-color: darkblue;}
+/* Faded color variants */
+.F-faas {background-color: burlywood;}
+.F-slaa {background-color: plum;}
+.F-lii  {background-color: mediumseagreen;}
+.F-daw  {background-color: lightcoral;}
+.F-ray  {background-color: peachpuff;}
+.F-may  {background-color: lightsteelblue;}
+.F-sor  {background-color: palegreen;}
+.F-laug {background-color: violet;}
+.F-faph {background-color: rosybrown;}
+.F-iis  {background-color: #BF945F;}
+.F-tiib {background-color: darksalmon;}
+.F-dol  {background-color: lightskyblue;}
+.F-reyn {background-color: olive;}
+.F-semi {background-color: grey;}
+.F-demi {background-color: darkgrey;}
+.F-hemi {background-color: lightgrey;}
+.F-tiik {background-color: Aquamarine;}
+.F-maak {background-color: lightblue;}
+.F-tuuk {background-color: #7BA6C6;}
