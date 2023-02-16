@@ -13,7 +13,7 @@
     <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
     <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
 </head><body style="
-  background-image: url('bg.jpg');">
+  background-image: url('bg-asleep.jpg');">
 	<div>
 		<h1>RaySlaaIisLaugSlaa ~ KB [ΘΘΘ||∅∅∅]!</h1>
 		<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>
@@ -144,10 +144,15 @@
 		<a href="https://kubebow.github.io/void"><img id="door" src="door0.png" style="
 		border-style: hidden;
 		width:10%;"></a>
-		<audio id="doraud0" src="door0.mp3" type="audio/mp3"></audio>
-		<audio id="doraud1" src="door1.mp3" type="audio/mp3"></audio>
 		</div>
+	<audio id="doraud0" src="door0.mp3" type="audio/mp3"></audio>
+	<audio id="doraud1" src="door1.mp3" type="audio/mp3"></audio>
+	<audio id="sq1load" src="sq1load.mp3" type="audio/mp3"></audio>
 	<script>
+document.addEventListener('click', function() {
+	this.body.style.backgroundImage = "url('bg.jpg')";
+	document.getElementById("sq1load").play();
+	});
 document.getElementById('door').addEventListener('mouseover', function() {
 	this.src = 'door1.png';
 	document.getElementById("doraud1").play();
