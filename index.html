@@ -144,9 +144,17 @@
 		<a href="https://kubebow.github.io/void"><img id="door" src="door0.png" style="
 		border-style: hidden;
 		width:10%;"></a>
+		<audio id="doraud0" src="door0.mp3" type="audio/mp3"></audio>
+		<audio id="doraud1" src="door1.mp3" type="audio/mp3"></audio>
 		</div>
 	<script>
-document.getElementById('door').addEventListener('mouseover', function() {this.src = 'door1.png';});
-document.getElementById('door').addEventListener('mouseout', function() {this.src = 'door0.png';});
+document.getElementById('door').addEventListener('mouseover', function() {
+	this.src = 'door1.png';
+	document.getElementById("doraud1").play();
+	});
+document.getElementById('door').addEventListener('mouseout', function() {
+	this.src = 'door0.png';
+	document.getElementById("doraud0").play();
+	});
 	</script>
 </body></html>
