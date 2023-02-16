@@ -121,25 +121,32 @@
 	<hr>
 	<div>
 		<h1>Subpages</h1>
-		<div id="subSection">
+		<div class="subSection">
 			<a class="subButton F-demi H-hemi" href="https://kubebow.github.io/discog"><div>
 				<span>My Discography</span>
 			</div></a>
 			</div>
-		<div id="subSection">
+		<div class="subSection">
 			<a class="subButton F-demi H-hemi" href="https://kubebow.github.io/stationary-brainwaves"><div>
 				<span>Stationary Brainwaves</span>
 			</div></a>
 			</div>
-		<div id="subSection">
+		<div class="subSection">
 			<a class="subButton F-demi H-hemi" href="https://github.com/kubebow/kubebow.github.io"><div>
 				<span>Github Page Repository</span>
 			</div></a>
 			</div>
-		<div id="subSection">
+		<!--<div class="subSection">
 			<a class="subButton F-demi H-hemi" href="https://kubebow.github.io/void"><div>
 				<span>???</span>
 			</div></a>
-			</div>
-	</div>
+			</div>-->
+		<a href="https://kubebow.github.io/void"><img id="door" src="door0.png" style="
+		border-style: hidden;
+		width:10%;"></a>
+		</div>
+	<script>
+document.getElementById('door').addEventListener('mouseover', function() {this.src = 'door1.png';});
+document.getElementById('door').addEventListener('mouseout', function() {this.src = 'door0.png';});
+	</script>
 </body></html>

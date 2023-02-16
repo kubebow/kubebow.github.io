@@ -129,7 +129,7 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 }
 
 /* Subpage button section */
-#subSection {
+.subSection {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -151,6 +151,9 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	
 	background-color: white;
 }
+
+#door {
+border-style: hidden;}
 
 /* Tomaroen colors for highlights and buttons */
 .faas {background-color: orange;}
