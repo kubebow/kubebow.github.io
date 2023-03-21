@@ -15,8 +15,9 @@
 	</head>
 <body style="background-color: black;">
 	<img id="switch" src="assets1/switch.png" style="
-		border-style: hidden;
-		width:3.5%;">
+	visiblity: visible;
+	border-style: hidden;
+	width:2.5%;">
 	<div id="face" style="
 	display: block;
 	color: white;">
@@ -105,7 +106,8 @@
 				<h2>KubeBow, COLORFUL_SHATTERS - STANDBY (EP)</h2>
 				<h3>Θ STANDBY is-- er--<br>
 				∅ STANDBY would've been a song about self-isolation. There's another universe where I succeeded in showing you such but we aren't there so here's...whatever this is. Sorry in advance.</h3>
-				<p>January 2023 Release | Noise, Ringtones, Half shitpost half mental breakdown</p>
+				<p>January 2023 Release<br>
+				Noise, Ringtones, Half shitpost half mental breakdown</p>
 			</div>
 			<!--
 			Apparently hr can make vertical lines in flexboxes
@@ -113,8 +115,15 @@
 			-->
 			<div id="latestTeaser">
 				<h1>Latest Teaser</h1>
-				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/esJG2sY5Bg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				<h2><em>No February '23 Teasers... yet.</em></h2>
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8We08QxhfjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<h2><em>February '23 Teasers</em></h2>
+				<a href="https://youtu.be/8We08QxhfjE">[Video: Square1 Tuning Ref. Tape]</a>
+				<mark class="faas">(Primary Teaser!)</mark><br>
+				<a href="https://www.youtube.com/channel/UCkuwIvaLxOILrgRUEi9SeIQ/community?lb=UgkxLcQSgJuIoRthuJgBoWO2sTgMTW1SOtAD">[Lore: "On the Subject of That Ref. Tape"]</a><br>
+				<a href="https://ffm.to/ppxovdb">[Related Side Project: Pi Slices (Flip of TSMB2's Pi)]</a><br>
+				<a href="https://www.youtube.com/channel/UCkuwIvaLxOILrgRUEi9SeIQ/community?lb=UgkxoeHudGbeQwei8V6ZuvUSLwiQTckH8Lp_">[Image: Tomasor(++±)]</a><br>
+				<a href="https://www.youtube.com/channel/UCkuwIvaLxOILrgRUEi9SeIQ/community?lb=Ugkx2hrY4tVPkvZA9NW8hcA-tCFioixsJuvy">[Image: Cover Art / Project Title]</a>
+				<mark class="faas">(Newest!)</mark><br>
 				<!--
 				<a href="https://www.youtube.com/post/UgkxW5H8xWtQJzyyDdHB47R9rHQ84_LHOP5q"><img class="latestCover" src="teaserImg.jpg" alt="Spontaneous 4AM Teaser Art"></a>
 				
@@ -123,6 +132,7 @@
 				<h2><em>February '23 Teasers</em></h2>
 				<a href="LINKHERE">[NAMEHERE]</a>
 				<mark class="faas">(Newest!)</mark><br>
+				<mark class="faas">(Primary Teaser!)</mark><br>
 				-->
 				</div>
 			</div>
@@ -174,7 +184,8 @@ document.getElementById('switch').addEventListener('click', function() {
 	document.getElementById("face").style.color = "black";
 	document.getElementById("indark").style.display = "block";
 	document.getElementById("sq1load").play();
-	this.remove();
+	this.style.visibility = "hidden";
+	// this.remove();
 	});
 document.getElementById('door').addEventListener('mouseover', function() {
 	this.src = 'assets1/door1.png';
