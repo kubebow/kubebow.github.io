@@ -1,0 +1,34 @@
+mark {
+	background-color: black;
+}
+
+.semi {
+	font-weight: bold;
+	background-color: #AAAAAA;
+	color: black;
+}
+
+.what {
+	color: darkblue;
+	background-color: darkblue;
+}
+
+/* Tomaroen colors for highlights and buttons */
+.faas {color: orange;}
+.slaa {color: MediumOrchid;}
+.lii  {color: green;}
+.daw  {color: red;}
+.ray  {color: yellow;}
+.may  {color: blue;}
+.sor  {color: lime;}
+.laug {color: magenta;}
+.faph {color: maroon;}
+.iis  {color: saddlebrown;}
+.tiib {color: orangered;}
+.dol  {color: dodgerblue;}
+.reyn {color: greenyellow;}
+.demi {color: dimgrey;}
+.hemi {color: white;}
+.tiik {color: springgreen;}
+.maak {color: cyan;}
+.tuuk {color: darkblue;}
