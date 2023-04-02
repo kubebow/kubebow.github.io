@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>KubeBow (Other Door)</title>
+    <meta content="website" property="og:type" />
+    <meta content="???" property="og:title" />
+    <meta content="???" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="background-color: black;">
+	<img id="switch" src="../assets1/switch.png" style="
+	visibility: visible;
+	border-style: hidden;
+	width:2.5%;">
+	<div id="face" style="
+	visibility: hidden;
+	display: block;
+	color: white;">
+		<div id="titleTxt">
+			<h1>text<br>
+			text<br>
+			text</h1>
+			<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>
+			</div>
+	<div id="indark" style="display: none;">
+		<div>
+			<img id="door" src="../assets1/door0.png" style="
+				border-style: hidden;
+				width:10%;
+				visibility: visible;">
+			</div>
+		</div>
+	<div id="void" style="
+	display: none;
+	color: white;">
+		<audio loop id="voidaud">
+			<source src="../assets1/voidi.mp3" type="audio/mp3">
+			<source src="../assets1/voidi.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+			</audio>
+		</div>
+	<div id="masterbus">
+		<audio id="doraud0" src="../assets1/door0.mp3" type="audio/mp3"></audio>
+		<audio id="doraud1" src="../assets1/door1.mp3" type="audio/mp3"></audio>
+		<audio id="sq1load" src="../assets1/sq1load.mp3" type="audio/mp3"></audio>
+		</div>
+	<script>
+document.getElementById('switch').addEventListener('click', function() {
+	document.body.style.backgroundImage = "url('../assets0/bg.jpg')";
+	document.getElementById("face").style.color = "black";
+	document.getElementById("indark").style.display = "block";
+	document.getElementById("sq1load").play();
+	this.style.visibility = "hidden";
+	// this.remove();
+	});
+document.getElementById('door').addEventListener('mouseover', function() {
+	this.src = '../assets1/door1.png';
+	document.getElementById("doraud1").play();
+	});
+document.getElementById('door').addEventListener('mouseout', function() {
+	this.src = '../assets1/door0.png';
+	document.getElementById("doraud0").play();
+	});
+document.getElementById('door').addEventListener('click', function() {
+	document.body.style.backgroundImage = "url('../assets1/voidi.gif')";
+	document.getElementById("masterbus").remove();
+	document.getElementById("face").style.display = "none";
+	document.getElementById("indark").style.display = "none";
+	document.getElementById("void").style.display = "block";
+	document.getElementById("voidaud").play();
+	document.title = "...?";
+	});
+	</script>
+</body></html>

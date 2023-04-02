@@ -212,3 +212,23 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 .F-tiik {background-color: Aquamarine;}
 .F-maak {background-color: lightblue;}
 .F-tuuk {background-color: #7BA6C6;}
+/* Text color */
+.C-faas {color: orange;}
+.C-slaa {color: MediumOrchid;}
+.C-lii  {color: green;}
+.C-daw  {color: red;}
+.C-ray  {color: yellow;}
+.C-may  {color: blue;}
+.C-sor  {color: lime;}
+.C-laug {color: magenta;}
+.C-faph {color: maroon;}
+.C-iis  {color: saddlebrown;}
+.C-tiib {color: orangered;}
+.C-dol  {color: dodgerblue;}
+.C-reyn {color: greenyellow;}
+.C-semi {color: rgba(50,50,50,255);}
+.C-demi {color: dimgrey;}
+.C-hemi {color: white;}
+.C-tiik {color: springgreen;}
+.C-maak {color: cyan;}
+.C-tuuk {color: darkblue;}
