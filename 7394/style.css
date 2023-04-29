@@ -9,12 +9,22 @@ white-space: nowrap;
 
 table {
 border-collapse: collapse;
+/*
+border: 1px solid #000000;
+*/
 }
 
 td.detailsColumn {
 padding-inline-start: 2em;
 text-align: end;
 white-space: nowrap;
+}
+
+th {
+text-align: end;
+/*
+border: 1px solid #000000;
+*/
 }
 
 a.icon {

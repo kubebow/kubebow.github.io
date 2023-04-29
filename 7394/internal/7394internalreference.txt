@@ -1,0 +1,33 @@
+{what everything below is for}
+[woohoo]   = contents of woohoo.webpartveryrealfiletype
+cool thing = variable used for cool thing
+(further explanation in perenteses)
+
+{START OF FILE, TITLE}
+	[htmltop0]           (start of file until title meta)
+	current dir          ("/7394/internal" would be "/internal")
+	[htmltop1]           (continue until h1 title)
+	current dir          (see above)
+	[htmltop2]           (continue until dir-up)
+	up dir               (edit of current dir, used for parent directory link)
+	[htmltop3]           (table labels, beginning of item list)
+{TABLE ITEM: DIRECTORY}
+	[directory0]         (Start directory item)
+	current dir          (See START OF FILE, TITLE)
+	subdir name          (For index.html subdir link)
+	[directory1]
+	subdir name          (For link labelling)
+	[directory2]         (End directory item)
+{TABLE ITEM: FILE}
+	[file0]              (Start file item)
+	current dir          (See START OF FILE, TITLE)
+	filename             (For link, include file ext)
+	[file1]              
+	filename             (For link labelling)
+	[file2]              
+	size                 (File size label)
+	[file3]              
+	date                 (File date modified label)
+	[file4]              (End file item)
+{END OF FILE}
+	[htmlbottom]         (close table and html)
