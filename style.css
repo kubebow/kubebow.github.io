@@ -20,6 +20,10 @@ hr {
 	border: 10px dashed black;
 }
 
+.subtle {
+	border: 5px dashed black;
+}
+
 h1 {
 	font-size: 48px;
 }

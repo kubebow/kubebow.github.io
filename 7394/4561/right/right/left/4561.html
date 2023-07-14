@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://kubebow.github.io/style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>KubeBow (Hallway)</title>
+    <meta content="website" property="og:type" />
+    <meta content="???" property="og:title" />
+    <meta content="???" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="background-color: black;">
+	<img id="switch" src="https://kubebow.github.io/assets1/switch.png" style="
+	visibility: hidden;
+	border-style: hidden;
+	width:2.5%;">
+	<div id="face" style="
+	visibility: visible;
+	display: block;
+	color: white;">
+		<div id="titleTxt">
+			<h1>te--<br>
+			te--<br>
+			--xt</h1>
+			<p><strong>If this page seems to not be working correctly <a href="https://kubebow.github.io">please</a> over.</strong></p>
+			</div>
+		<div id="indark" style="display: none;">
+			<div>
+				<a href="left/4561.html"><img id="door" src="https://kubebow.github.io/assets1/door0.png" style="
+					border-style: hidden;
+					width:10%;
+					visibility: visible;"></a>
+				<a href="right/4561.html"><img id="doorrrr" src="https://kubebow.github.io/assets1/door0.png" style="
+					border-style: hidden;
+					width:10%;
+					visibility: visible;
+					transform: scaleX(-1);"></a>
+				</div>
+			</div>
+		<p>AAAA</p>
+	</div>
+	<div id="masterbus">
+		<audio id="doraud0" src="https://kubebow.github.io/assets1/door0.mp3" type="audio/mp3"></audio>
+		<audio id="doraud1" src="https://kubebow.github.io/assets1/door1.mp3" type="audio/mp3"></audio>
+		<audio id="sq1load" src="https://kubebow.github.io/assets1/sq1load.mp3" type="audio/mp3"></audio>
+		</div>
+	<script>
+// Autoplay prevention (light switch)
+// document.getElementById('switch').addEventListener('click', function() {
+document.body.style.backgroundImage = "url('https://kubebow.github.io/assets0/bg.jpg')";
+document.getElementById("face").style.color = "black";
+document.getElementById("indark").style.display = "block";
+document.getElementById("sq1load").play();
+//	this.style.visibility = "hidden";
+	// this.remove();
+//	});
+document.getElementById('door').addEventListener('mouseover', function() {
+	this.src = 'https://kubebow.github.io/assets1/door1.png';
+	document.getElementById("doraud1").play();
+	});
+document.getElementById('doorrrr').addEventListener('mouseover', function() {
+	this.src = 'https://kubebow.github.io/assets1/door1.png';
+	document.getElementById("doraud1").play();
+	});
+document.getElementById('door').addEventListener('mouseout', function() {
+	this.src = 'https://kubebow.github.io/assets1/door0.png';
+	document.getElementById("doraud0").play();
+	});
+document.getElementById('doorrrr').addEventListener('mouseout', function() {
+	this.src = 'https://kubebow.github.io/assets1/door0.png';
+	document.getElementById("doraud0").play();
+	});
+	</script>
+</body></html>
