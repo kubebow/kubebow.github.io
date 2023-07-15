@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://kubebow.github.io/style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>KubeBow (Record Player)</title>
+    <meta content="website" property="og:type" />
+    <meta content="???" property="og:title" />
+    <meta content="???" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="
+background-image: url('https://kubebow.github.io/assets0/bg.jpg');
+text-align: left;">
+	<div id="indark">
+		<div>
+			<!-- Title -->
+			<h1>hi this is my cool record collection i found on the street in the middle of organ unistate idk what they are but the sound interest i think</h1>
+			<!-- Player / Eject -->
+			<img id="player" src="7251.png" style="
+				border-style: hidden;
+				width: 30%;
+				visibility: visible;">
+			<div id="controls" style="visibility: hidden;">
+				<img id="eject" src="7251-eject.png" style="
+					border-style: hidden;
+					width: 10%;">
+				<img id="download" src="7251-download.png" style="
+					border-style: hidden;
+					width: 10%;">
+			</div>
+			<br><br><br>
+			<!-- Discs (remember to add number to array below) -->
+			<img class="disc" id="9535" src="9535.png" style="
+				border-style: hidden;
+				width: 10%;
+				visibility: visible;">
+			<img class="disc" id="7931" src="7931.png" style="
+				border-style: hidden;
+				width: 10%;
+				visibility: visible;">
+			<!--
+			-->
+			</div>
+		<audio loop>
+			<source src="https://kubebow.github.io/assets1/voidi.mp3" type="audio/mp3">
+			<source src="https://kubebow.github.io/assets1/voidi.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+			</audio>
+		</div>
+	<div id="masterbus">
+		<audio id="audhid" src="" type="audio/mp3"></audio>
+		<!--
+		<audio id="7931aud" src="7931.mp3" type="audio/mp3"></audio>
+		<audio id="doraud1" src="https://kubebow.github.io/assets1/door1.mp3" type="audio/mp3"></audio>
+		<audio id="sq1load" src="https://kubebow.github.io/assets1/sq1load.mp3" type="audio/mp3"></audio>
+		-->
+		</div>
+	<script>
+var disc = "7251"; <!-- 7251 = no disc -->
+const normalDiscs = ["9535","7931"]; <!-- remember to add button above too -->
+<!-- PLAY DISC -->
+for (const thisDisc of normalDiscs) {
+	document.getElementById(thisDisc).addEventListener('click', function() {
+		<!-- Auto-eject current disc if playing something -->
+		if (disc != "7251") { eject(); }
+		<!-- Remember what disc is currently playing -->
+		disc = thisDisc;
+		<!-- Change visuals -->
+		let player = document.getElementById('player');
+		player.src = disc+".gif";
+		<!-- placeholder disc intentionally has no textures, but that looks dumb in full size because it becomes square, so scale down the player a bit -->
+		if (disc == "7931") { player.style.width = "20%"; }
+		this.style.visibility = "hidden"; <!-- hide record button -->
+		<!-- Show controls -->
+		let controls = document.getElementById('controls');
+		controls.style.visibility = "visible";
+		<!-- Play song audio -->
+		let audhid = document.getElementById('audhid');
+		audhid.src = disc+".mp3";
+		audhid.play();
+		});
+	}
+<!-- EJECT -->
+document.getElementById('eject').addEventListener('click', eject);
+function eject() {
+	<!-- Change visuals -->
+	let player = document.getElementById('player');
+	player.src = "7251.png"; <!-- no disc player -->
+	player.style.width = "30%"; <!-- fix size in case of placeholder disc -->
+	document.getElementById(disc).style.visibility = "visible"; <!-- show record button -->
+	<!-- Hide controls -->
+	let controls = document.getElementById('controls');
+	controls.style.visibility = "hidden";
+	<!-- Play song audio -->
+	let audhid = document.getElementById('audhid');
+	audhid.pause();
+	audhid.src = "";
+	<!-- No disc is playing now -->
+	disc = "7251";
+	}
+<!-- DOWNLOAD -->
+document.getElementById('download').addEventListener('click', function() {
+	window.location.href = disc+".mp3";
+	});
+	</script>
+</body></html>
