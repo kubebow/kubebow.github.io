@@ -1,5 +1,5 @@
 Welcome to The Directory! This phone can be used to quickjump anywhere and anytime in this world, regardless of whether you're allowed to be there or not. Proceed with extreme caution as some of these items are HIGHLY experimental and are not accessible anywhere else on the site due to being in a WIP state. The phone itself should be in working condition at the moment, but if you find a way to break/exploit it we advise you to let a local Square1 technician know ASAP. We cannot guarantee your safety if you choose to explore any exploits before they are safely sanded down. Thanks, and have a pleasant day.
-
+--------------------------------------------------------------
 { THE #FAF58F PAGES }
 [] ITEM LIST []
 0000: [h ] Directory
