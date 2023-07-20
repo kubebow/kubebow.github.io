@@ -99,7 +99,7 @@ request.onreadystatechange = function () {
 	if (this.readyState == 4 && this.status == 200) {
 		<!-- Save each line into dict -->
 		response = request.responseText;
-		arrRead = response.split("\r\n");
+		arrRead = response.split("\n");
 		for (const line of arrRead) {
 			pages[line.slice(0,4)] = line;
 		}
