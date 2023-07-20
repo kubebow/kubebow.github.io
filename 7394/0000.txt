@@ -3,6 +3,7 @@ Welcome to The Directory! This phone can be used to quickjump anywhere and anyti
 { THE #FAF58F PAGES }
 [] ITEM LIST []
 0000: [h ] Directory
+0418: [h ] HTTP Response 418
 0549: [h ] Other Door
 0653: [h ] In The Dark
 0684: [m ] ΘΘΘ - ID(0684)
