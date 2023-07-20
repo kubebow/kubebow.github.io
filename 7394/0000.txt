@@ -1,0 +1,34 @@
+Welcome to The Directory! This phone can be used to quickjump anywhere and anytime in this world, regardless of whether you're allowed to be there or not. Proceed with extreme caution as some of these items are HIGHLY experimental and are not accessible anywhere else on the site due to being in a WIP state. The phone itself should be in working condition at the moment, but if you find a way to break/exploit it we advise you to let a local Square1 technician know ASAP. We cannot guarantee your safety if you choose to explore any exploits before they are safely sanded down. Thanks, and have a pleasant day.
+
+{ THE #FAF58F PAGES }
+[] ITEM LIST []
+0000: [h ] Directory
+0549: [h ] Other Door
+0653: [h ] In The Dark
+0684: [m ] ΘΘΘ - ID(0684)
+1350: [m ] ±±± - ID(1350)
+2391: [m ] ΘΘΘ - ID(2391)
+2778: [h ] Patterns
+3019: [m ] ΘΘΘ - ID(3019)
+3084: [m ] ΘΘΘ - ID(3084)
+3401: [m ] ΘΘΘ - ID(3401)
+3409: [h ] Key
+3942: [m ] ΘΘΘ - ID(3942)
+4561: [H ] Hallway
+5020: [H ] Lyric Booklet
+5567: [mv] ΘΘΘ - ID(5567)
+7114: [m ] ΘΘΘ - ID(7114)
+7251: [H ] Record Player
+7394: [h ] Index of /7394
+7797: [m ] ΘΘΘ - ID(7797)
+7931: [M ] ΘΘΘ - ID(7931) / Textureless Record
+8144: [m ] ΘΘΘ - ID(8144)
+9535: [M ] ΘΘΘ - ID(9535) / Red-Labelled Record
+9560: [m ] ΘΘΘ - ID(9560)
+[] FORMAT KEY []
+h: html (Current directory)
+H: html (Nested inside subdir)
+m: Music ID (Incompatible With Record Player, #7251)
+M: Music ID (Compatible With Record Player, #7251)
+v: Video (mp4)
+[] EOF []

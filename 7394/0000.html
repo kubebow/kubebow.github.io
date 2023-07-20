@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://kubebow.github.io/style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>KubeBow (Directory)</title>
+    <meta content="website" property="og:type" />
+    <meta content="???" property="og:title" />
+    <meta content="???" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="
+background-color: white;
+text-align: center;">
+	<!-- nlah -->
+	<h1 id="title">Directory</h1>
+	<p id="preview">0000: [h ] Directory</p>
+	<div style="
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	">
+		<img id="phone" src="0000.jpg" style="
+			border-style: none;
+			width: 15%;
+			visibility: visible;
+			outline: solid;
+			">
+		<div style="
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 30%;
+		">
+			<!-- x sq tri ... -->
+			<img class="input" id="🞫" src="0000a.png" style="border-style: none;">
+			<img class="input" id="■" src="0000b.png" style="border-style: none;">
+			<img class="input" id="▲" src="0000c.png" style="border-style: none;">
+			<img src="0000d.png" style="border-style: none;">
+			<div style="flex-basis: 100%;height: 0;"></div>
+			<img src="0000e.png" style="border-style: none;">
+			<div style="flex-basis: 100%;height: 0;"></div>
+			<!-- one two three ... up -->
+			<img class="input" id="1" src="0000f.png" style="border-style: none;">
+			<img class="input" id="2" src="0000g.png" style="border-style: none;">
+			<img class="input" id="3" src="0000h.png" style="border-style: none;">
+			<img src="0000i.png" style="border-style: none;">
+			<img class="input" id="↑" src="0000j.png" style="border-style: none;">
+			<div style="flex-basis: 100%;height: 0;"></div>
+			<!-- four five six ... down -->
+			<img class="input" id="4" src="0000k.png" style="border-style: none;">
+			<img class="input" id="5" src="0000l.png" style="border-style: none;">
+			<img class="input" id="6" src="0000m.png" style="border-style: none;">
+			<img src="0000n.png" style="border-style: none;">
+			<img class="input" id="↓" src="0000o.png" style="border-style: none;">
+			<div style="flex-basis: 100%;height: 0;"></div>
+			<!-- seven eight nine ... clr -->
+			<img class="input" id="7" src="0000p.png" style="border-style: none;">
+			<img class="input" id="8" src="0000q.png" style="border-style: none;">
+			<img class="input" id="9" src="0000r.png" style="border-style: none;">
+			<img src="0000s.png" style="border-style: none;">
+			<img class="input" id="CLR" src="0000t.png" style="border-style: none;">
+			<div style="flex-basis: 100%;height: 0;"></div>
+			<!-- ast zero hash ... ok -->
+			<img class="input" id="*" src="0000u.png" style="border-style: none;">
+			<img class="input" id="0" src="0000v.png" style="border-style: none;">
+			<img class="input" id="#" src="0000w.png" style="border-style: none;">
+			<img src="0000x.png" style="border-style: none;">
+			<img class="input" id="OK" src="0000y.png" style="border-style: none;">
+			</div>
+		</div>
+	<br><embed src="0000.txt" width="50%;" height="100;" style="
+	background-color: #FAF58F;
+	height: 100%;
+	outline: solid;
+	">
+	<div id="masterbus">
+		<audio id="audtest" src="https://kubebow.github.io/assets1/sq1load.mp3" type="audio/mp3"></audio>
+		</div>
+	<script>
+<!-- init -->
+var dial = "";
+var formatted
+display()
+let inputs = document.getElementsByClassName("input");
+<!-- Pages dict init: Grab txt file -->
+var pages = {};
+var request = new XMLHttpRequest();
+var response = "";
+var arrRead;
+request.open('GET', 'https://kubebow.github.io/7394/0000.txt', true);
+request.send();
+<!-- Pages dict init: Connection is established -->
+request.onreadystatechange = function () {
+	if (this.readyState == 4 && this.status == 200) {
+		<!-- Save each line into dict -->
+		response = request.responseText;
+		arrRead = response.split("\r\n");
+		for (const line of arrRead) {
+			pages[line.slice(0,4)] = line;
+		}
+		console.log(pages);
+	}
+};
+<!-- functions and event listeners -->
+for (const thisButton of inputs) {
+	thisButton.addEventListener('click', function() {
+		if (this.id == "CLR") {
+			clr();
+		} else if (this.id == "OK") {
+			ok();
+		} else {
+			dial += this.id;
+			}
+		<!-- Text updates -->
+		display();
+		let retVal = pages[formatted];
+		if (retVal == null) {
+			retVal = formatted+": [?] Nan";
+		}
+		document.getElementById('preview').innerHTML = retVal;
+		<!-- Play song audio -->
+		let audtest = document.getElementById('audtest');
+		audtest.play();
+		});
+	}
+function clr() {
+	dial = "";
+}
+function display() {
+	let empties = (4-dial.length);
+	if (empties < 0) {
+		dial = dial.slice(1);
+		empties = 0;
+	}
+	formatted = dial;
+	for (let i = 0; i < empties; i++) {
+		formatted = "0"+formatted;
+	}
+	document.getElementById("title").innerHTML = "[ "+formatted+" ]";
+}
+function grabIndicator() {
+	let retVal = pages[formatted];
+	let activated = false;
+	let retNew = "";
+	for (let i = 0; i < retVal.length; i++) {
+		let c = retVal.slice(i,i+1);
+		if (activated) {
+			if (c == "]") {
+				return retNew;
+			} else {
+				retNew += c;
+			}
+		} else if (c == "[") {
+			activated = true;
+		}
+	}
+}
+function ok() {
+	<!-- Special checks -->
+	switch(formatted) {
+		case "0000":
+			location.reload();
+			return;
+		//case "0418":
+		//	dial = "!!!";
+		//	break;
+		//case "7394":
+		//	window.location.href = "7394.html";
+		//	break;
+		//default:
+		//	clr();
+	}
+	<!-- Normal checks -->
+	let cs = grabIndicator();
+	let dir = "";
+	let ext = "";
+	let file = formatted;
+	for (let i = 0; i < cs.length; i++) {
+		let c = cs.slice(i,i+1);
+		switch(c) {
+			case " ":
+				continue;
+			case "H":
+				dir = formatted+"/";
+			case "h":
+				ext = ".html";
+				break;
+			case "m":
+				dir = "7251/";
+				ext = ".mp3";
+				break;
+			case "M":
+				dir = "7251/";
+				file = "7251";
+				ext = ".html";
+				break;
+			case "v":
+				ext = ".mp4";
+				break;
+		}
+	}
+	window.location.href = dir+file+ext+"";
+}
+	</script>
+</body></html>

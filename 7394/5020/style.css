@@ -14,21 +14,62 @@ mark {
 }
 
 /* Tomaroen colors for highlights and buttons */
-.faas {color: orange;}
-.slaa {color: MediumOrchid;}
-.lii  {color: green;}
-.daw  {color: red;}
-.ray  {color: yellow;}
-.may  {color: blue;}
-.sor  {color: lime;}
-.laug {color: magenta;}
-.faph {color: maroon;}
-.iis  {color: saddlebrown;}
-.tiib {color: orangered;}
-.dol  {color: dodgerblue;}
-.reyn {color: greenyellow;}
-.demi {color: dimgrey;}
-.hemi {color: white;}
-.tiik {color: springgreen;}
-.maak {color: cyan;}
-.tuuk {color: darkblue;}
+.faas {background-color: orange;}
+.slaa {background-color: MediumOrchid;}
+.lii  {background-color: green;}
+.daw  {background-color: red;}
+.ray  {background-color: yellow;}
+.may  {background-color: blue;}
+.sor  {background-color: lime;}
+.laug {background-color: magenta;}
+.faph {background-color: maroon;}
+.iis  {background-color: saddlebrown;}
+.tiib {background-color: orangered;}
+.dol  {background-color: dodgerblue;}
+.reyn {background-color: greenyellow;}
+.demi {background-color: dimgrey;}
+.hemi {background-color: white;}
+.tiik {background-color: springgreen;}
+.maak {background-color: cyan;}
+.tuuk {background-color: darkblue;}
+}
+
+/* TEXT color */
+.C-faas {color: orange;}
+.C-slaa {color: MediumOrchid;}
+.C-lii  {color: green;}
+.C-daw  {color: red;}
+.C-ray  {color: yellow;}
+.C-may  {color: blue;}
+.C-sor  {color: lime;}
+.C-laug {color: magenta;}
+.C-faph {color: maroon;}
+.C-iis  {color: saddlebrown;}
+.C-tiib {color: orangered;}
+.C-dol  {color: dodgerblue;}
+.C-reyn {color: greenyellow;}
+.C-demi {color: dimgrey;}
+.C-hemi {color: white;}
+.C-tiik {color: springgreen;}
+.C-maak {color: cyan;}
+.C-tuuk {color: darkblue;}
+/* Faded color variants */
+.F-faas {background-color: burlywood;}
+.F-slaa {background-color: plum;}
+.F-lii  {background-color: mediumseagreen;}
+.F-daw  {background-color: lightcoral;}
+.F-ray  {background-color: peachpuff;}
+.F-may  {background-color: lightsteelblue;}
+.F-sor  {background-color: palegreen;}
+.F-laug {background-color: violet;}
+.F-faph {background-color: rosybrown;}
+.F-iis  {background-color: #BF945F;}
+.F-tiib {background-color: darksalmon;}
+.F-dol  {background-color: lightskyblue;}
+.F-reyn {background-color: olive;}
+.F-semi {background-color: grey;}
+.F-demi {background-color: darkgrey;}
+.F-hemi {background-color: lightgrey;}
+.F-tiik {background-color: Aquamarine;}
+.F-maak {background-color: lightblue;}
+.F-tuuk {background-color: #7BA6C6;}

@@ -1,0 +1,65 @@
+<html><head>
+    <link href="stylealt.css" rel="stylesheet" type="text/css" media="all">
+	<title>±±±/moonlight.html</title>
+	</head>
+<body style="
+background-color: white;
+background-size: 8%;
+text-align: center;
+">
+	<div style="
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	">
+		<div style="
+		flex-wrap: wrap;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: space-between;
+		">
+			<img id="switch" src="https://kubebow.github.io/assets1/switch.png" style="
+			visibility: visible;
+			border-style: hidden;
+			width:10%;"><br>
+			<div id="txtbox" style="
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+			padding: 50px;
+			outline: hidden;
+			text-align: left;
+			">
+				Rain likely tonight for western Oregon<br>
+				with overnight lows in the thirties,<br>
+				and continuing into Monday with afternoon temperatures tomorrow<br>
+				in the low to mid forties.<br>
+				For central and eastern Oregon:<br>
+				Rain and snow likely early tonight.<br>
+				For central Oregon: rain likely to the east,<br>
+				overnight lows in the twenties.<br>
+				Snow likely early for Monday for Bend and Central Oregon<br>
+				with rain likely throughout the day for eastern Oregon,<br>
+				afternoon temperatures tomorrow in the thirties.
+			</div>
+		</div>
+	</div>
+	<div id="masterbus">
+		<audio id="sq1load" src="https://kubebow.github.io/assets1/sq1load.mp3" type="audio/mp3"></audio>
+		<audio loop id="rain" src="rain.mp3" type="audio/mp3"></audio>
+		</div>
+	<script>
+document.getElementById('switch').addEventListener('click', function() {
+	document.body.style.backgroundImage = "url('rain.gif')";
+	document.getElementById("txtbox").style.outline = "dashed";
+	document.getElementById("sq1load").play();
+	document.getElementById("rain").play();
+	this.style.visibility = "hidden";
+	});
+	</script>
+</html>
