@@ -113,7 +113,12 @@ for (const thisButton of inputs) {
 			clr();
 		} else if (this.id == "OK") {
 			ok();
-		} else {
+		} else { // button pressed was a symbol button
+			// if "■1" was dialed, immediately go to the square1 drive
+			if (dial.slice(-1) == "■" && this.id == "1") {
+				window.location.href = "https://kubebow.github.io/square1/index.html";
+			}
+			// add symbol to current dial string
 			dial += this.id;
 			}
 		<!-- Text updates -->
@@ -126,8 +131,8 @@ for (const thisButton of inputs) {
 		<!-- Play song audio -->
 		let audtest = document.getElementById('audtest');
 		audtest.play();
-		});
-	}
+	});
+}
 function clr() {
 	dial = "";
 }

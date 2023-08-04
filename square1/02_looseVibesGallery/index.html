@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://kubebow.github.io/style.css" rel="stylesheet" type="text/css" media="all">-->
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>Square1 Virtual Machine (Compatibility Mode)</title>
+    <meta content="website" property="og:type" />
+    <meta content="???" property="og:title" />
+    <meta content="???" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="
+background-color: white;
+background-image: none;
+color: black;">
+	<div>
+		<h1>/02_looseVibesGallery/…</h1>
+		<a href="../index.html" style="
+		display:inline;
+		font-weight:bold;
+		"><h2>Go up</h2></a>
+		<p>This Square1 Virtual Machine is currently unavailable.<br>
+		Data on this drive can be accessed below, but some functionality may not be available.</p>
+		</div>
+	<div style="
+	visibility: visible;
+	background-color: black;
+	color: white;
+	">
+		<img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><br>__<img src="nan.png">All images <img src="nan.png">can be cli<img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png">cked to open<img src="nan.png"><img src="nan.png"><img src="nan.png">_<img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><img src="nan.png"><br>
+		<div id="hof">
+			<h1 style="
+			text-align: center;
+			">! Hall of Fame</h1><br>
+			<div style="
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			image-rendering: crisp-edges;
+			flex-wrap: wrap;
+			">
+				<div class="item">
+					<div><h1>???</h1><p></p>
+						</div>
+					<img src="! Hall of Fame/20230426_122445.jpg">
+					</div>
+				<div class="item">
+					<div><h1>???</h1><p></p>
+						</div>
+					<img src="! Hall of Fame/Blender3D_brbLost.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	<script>
+var imgs = document.getElementsByTagName("img");
+var items = document.getElementsByClassName("item");
+var windowzone = document.getElementById("windowzone");
+var msg = document.getElementById("fourohfour");
+var ls = document.getElementById("ls");
+var patience = false;
+var load = false;
+setInterval(flicker, 100); 
+// 1000 = 1 second
+		
+function getRandomInt(max) { // random number from 1 to max (inclusive)
+  return Math.floor(Math.random() * max);
+}
+function flicker() { // the weird broken img tags effect
+	for (var i = 0; i < imgs.length; i++) {
+		if (imgs[i].src.includes("nan.png")) { // only flicker nan.pngs, not actual images
+			imgs[i].style.display = "none";
+			if (getRandomInt(2) == 1) {
+				imgs[i].style.display = "inline";
+			}
+		}
+	}
+}
+
+// Stylize all items and add event listeners
+for (var i = 0; i < items.length; i++) {
+	// src label (p tags)
+	var srclbl = items[i].getElementsByTagName('div')[0].getElementsByTagName('p')[0];
+	var srctxt = items[i].getElementsByTagName('img')[0].src;
+	var splits = srctxt.split('/');
+	srclbl.innerHTML = splits[splits.length-1];
+	// img style
+	items[i].getElementsByTagName('img')[0].style.width = "200px";
+	// If user clicks an item, redirect them to the image's url
+	items[i].addEventListener('click', function() { 
+		document.location = this.getElementsByTagName('img')[0].src;
+		});
+	// box style
+	items[i].style.margin = "20px";
+	items[i].style.outline = "solid";
+	// background color (highlight if mousing over)
+	items[i].style.backgroundColor = "#444444";
+	items[i].addEventListener('mouseover', function() {this.style.backgroundColor = "blue";});
+	items[i].addEventListener('mouseout', function() {this.style.backgroundColor = "#444444";});
+};
+	</script>
+</body></html>
