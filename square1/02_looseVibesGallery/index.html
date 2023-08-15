@@ -53,6 +53,11 @@ color: black;">
 						</div>
 					<img src="! Hall of Fame/Blender3D_brbLost.png">
 					</div>
+				<div class="item">
+					<div><h1>???</h1><p></p>
+						</div>
+					<img src="! Hall of Fame/SmartSelect_20230712-060158_Samsung Notes.jpg">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -85,6 +90,7 @@ function flicker() { // the weird broken img tags effect
 for (var i = 0; i < items.length; i++) {
 	// src label (p tags)
 	var srclbl = items[i].getElementsByTagName('div')[0].getElementsByTagName('p')[0];
+	srclbl.style.fontSize = "smaller";
 	var srctxt = items[i].getElementsByTagName('img')[0].src;
 	var splits = srctxt.split('/');
 	srclbl.innerHTML = splits[splits.length-1];
@@ -97,6 +103,7 @@ for (var i = 0; i < items.length; i++) {
 	// box style
 	items[i].style.margin = "20px";
 	items[i].style.outline = "solid";
+	items[i].style.outlineColor = "gray";
 	// background color (highlight if mousing over)
 	items[i].style.backgroundColor = "#444444";
 	items[i].addEventListener('mouseover', function() {this.style.backgroundColor = "blue";});
