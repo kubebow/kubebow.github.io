@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>Square1 - Color Palette Selector</title>
+    <meta content="website" property="og:type" />
+    <meta content="KubeBow's Homepage" property="og:title" />
+    <meta content="Artist homepage of KubeBow (and other relevant monikers)" property="og:description" />
+    <meta content="https://kubebow.github.io/" property="og:url" />
+    <meta content="https://kubebow.github.io/tech/preview.png" property="og:image" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	</head>
+<body style="background-color: black;">
+	<div id="face" style="
+	display: block;
+	color: white;">
+		<div id="titleTxt">
+			<h1>Welcome to Square1!</h1>
+			<!--<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>-->
+			</div>
+		<a href="index.html"><img class="palette" id="kb" src="assets0/palette-kb.png" alt="KubeBow" style="
+		width:20%;
+		border:hidden;
+		filter: grayscale(100%);
+		"></a><br>
+		<a href="https://djsqarxz.bandcamp.com/album/gridlock-collaborative-ep"><img class="palette" id="440" src="assets0/palette-440.png" alt="Zone-440" style="
+		width:20%;
+		border:hidden;
+		filter: grayscale(100%);
+		"></a><br>
+		<a href="https://djsqarxz.carrd.co/"><img class="palette" id="opt1" src="assets0/palette-opt1.png" alt="Option1" style="
+		width:20%;
+		border:hidden;
+		filter: grayscale(100%);
+		"></a><br>
+		<div>
+			<h1 id="paletteTitle">Please Choose a Color Palette</h1>
+			<p id="paletteDesc">Mouse over a palette for more info</p>
+			<!--<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>-->
+			</div>
+		</div>
+<script>
+var palettes = document.getElementsByClassName("palette");
+var paletteTitle = document.getElementById("paletteTitle");
+var paletteDesc = document.getElementById("paletteDesc");
+var current = "";
+for (var i = 0; i < palettes.length; i++) {
+	/*
+	palettes[i].addEventListener('mouseout', function() {
+		this.style.filter = "grayscale(100%)";
+		//currentSrc = ""
+		update();
+		});
+	palettes[i].addEventListener('mouseover', function() {
+		this.style.filter = "grayscale(0%)";
+		currentSrc = this.src
+		update();
+		});
+	*/
+	palettes[i].addEventListener('mouseover', function() {
+		current = this.id
+		update();
+		});
+};
+function update() {
+	console.log(current);
+	// Reset all to grey, then color the current button
+	for (var i = 0; i < palettes.length; i++) {palettes[i].style.filter = "grayscale(100%)";};
+	document.getElementById(current).style.filter = "grayscale(0%)";
+	// Update textfile:///C:/Users/Kaden/Desktop/Folder/git/kubebow.github.io/index.html
+	if (current == "kb") {
+		paletteTitle.innerHTML = "KubeBow";
+		paletteDesc.innerHTML = "My solo projects!<br>I do a bit of everything, but it all somehow connects in the end.";
+		}
+	if (current == "440") {
+		paletteTitle.innerHTML = "Zone-440";
+		paletteDesc.innerHTML = "Music-centric discord community turned internet band.<br>This community/band is managed by KubeBow but spans way WAYY further than just me.<br><br><strong>Here is a list of everyone who has helped with Zone-440 at least once:</strong><br>Axeras<br>Dachi: <a href='https://youtube.com/@Dachi40'>@Dachi40 on YouTube</a><br>Dee<br>Jace<br>Juandif: <a href='https://twitter.com/Juandifthebest'>@Juandifthebest on Twitter</a><br>KirbyCreep: <a href='https://youtube.com/@kirbycreep'>@kirbycreep on YouTube</a>, <a href='https://gamejolt.com/@KirbyCreep'>@KirbyCreep on Game Jolt</a><br>KubeBow: You already are on my website, you probably don't need my links lol<br>Randome<br>Rikri: <a href='https://soundcloud.com/rikri_m'>SoundCloud</a><br>SpiffiestTea<br>WaterDroplet02<br>Xen't<br>YeetYote: <a href='https://soundcloud.com/yeetyotemoment'>SoundCloud</a><br><br>This list might not always be up to date because keeping track of all of the sites with this list is near impossible,<br>but I'm sure as hell gonna try because I care about each of these people and the stuff we've made more than I am emotionally open enough to admit."
+		}
+	if (current == "opt1") {
+		paletteTitle.innerHTML = "Option1";
+		paletteDesc.innerHTML = "<img style='width:10%; border:none;' src='assets0/IMAGE_THAT_DOESNT_BREAK_YOUR_COMPUTER.png'></img>"
+		}
+}
+	</script>
+</body></html>
