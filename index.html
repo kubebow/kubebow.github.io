@@ -15,10 +15,45 @@
 	<meta name="p:domain_verify" content="e8176958c4a704bcd26dbbde5538af4a"/>
 	</head>
 <body style="background-color: black;">
-	<img id="switch" src="assets1/switch.png" style="
-	visiblity: visible;
-	border-style: hidden;
-	width:2.5%;">
+	<div id="switchPanel">
+		<img id="switch" src="assets1/switch.png" style="
+			border-style: hidden;
+			width:2.5%;">
+		<p id="lightHelp" style="
+			font-size:12px;
+			position: relative;
+			bottom: 15px;
+			font-family:'Courier New';
+			font-weight:bold;
+			color:white;
+			">Flip the lightswitch to open the full website.</p>
+		</div>
+	<div id="colpal" style="
+		display: none;
+		position: sticky;
+		color: white;
+		top: 0px;
+		text-align: center;
+		">
+			<p style="
+				font-size:36px;
+				position: relative;
+				bottom: 0px;
+				font-family:'Courier New';
+				font-weight:bold;
+				"><mark style="
+				background-color:black;
+				color:white;">You are viewing the [([<img src="assets0/palette-kb.png" style="
+					border:none;
+					width: 15%;
+					position: relative;
+					bottom: -10px;
+				">])] pages. <a href="select.html" class="C-slaa" style="
+					font-size:18px;
+					">(SWAP LABELS/DISCOG HERE)</a><br></mark>
+				<audio autoplay loop controls id="audTheme" src="assets0/gitFX.mp3" type="audio/mp3"></audio>
+				</p>
+		</div>
 	<div id="face" style="
 	display: block;
 	color: white;">
@@ -87,7 +122,7 @@
 		<div>
 			<h2>I hope you find something that interests you! :)</h2>
 			<img src="assets0/banner.png" alt="KubeBow s0c1 Banner" style="width:75%;">
-			<p><mark class="F-faas">Θ If you want/need to contact me for whatever reason, contact me using the following email: diamondkoopa@gmail.com</p>
+			<p><mark class="F-faas">Θ If you want/need to contact me for whatever reason, contact me using the following email: kubebow.square1@gmail.com</p>
 			</div>
 		<hr>
 		<div id="latest">
@@ -217,8 +252,11 @@ document.getElementById('switch').addEventListener('click', function() {
 	document.body.style.backgroundImage = "url('assets0/bg.jpg')";
 	document.getElementById("face").style.color = "black";
 	document.getElementById("indark").style.display = "block";
+	document.getElementById("switchPanel").style.display = "none";
+	document.getElementById("colpal").style.display = "block";
 	document.getElementById("sq1load").play();
-	this.style.visibility = "hidden";
+	document.getElementById("audTheme").play();
+	document.getElementById("audTheme").controls = true;
 	// this.remove();
 	});
 // Door and void

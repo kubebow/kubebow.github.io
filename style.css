@@ -236,3 +236,12 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 .C-tiik {color: springgreen;}
 .C-maak {color: cyan;}
 .C-tuuk {color: darkblue;}
+/* Zone-440 */
+.zoneA {background-color: #8A61C5;}
+.zoneB {background-color: #B761C5;}
+.zoneC {background-color: #C561A8;}
+.zoneD {background-color: #C5617B;}
+.zoneE {background-color: #C57561;}
+.zoneF {background-color: #C5A161;}
+.zoneG {background-color: #BDC561;}
+.H-zone:hover {background-color: white;}
