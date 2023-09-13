@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="style.css" rel="stylesheet" type="text/css" media="all">-->
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <title>...?</title>
+    <meta content="website" property="og:type" />
+    <meta content="...?" property="og:title" />
+    <meta content="...?" property="og:description" />
+    <meta content="https://kubebow.github.io/void/index.html" property="og:url" />
+    <meta content="https://kubebow.github.io/void/preview-void.png" property="og:image" />
+    <meta content="#03002D" data-react-helmet="true" name="theme-color" />
+  </head>
+  <body width="100%" height="100%" style=";
+	background-size: 100%;">
+	<div id="html-freeze" style="visibility: visible;">
+		<h1>This page contains autoplaying audio and/or video</h1>
+		<p>Click anywhere on this page to continue<br>
+		<br>
+		<a href="https://kubebow.github.io">Back To Homepage</a></p>
+		</div>
+	<div id="html-started" style="
+	color: white;
+	visibility: hidden;">
+		<a href="https://kubebow.github.io">Back To Homepage</a>
+		<audio loop id="audio">
+			<source src="void.mp3" type="audio/mp3">
+			<source src="void.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+			</audio>
+		</div>
+	<script>
+document.addEventListener("click", unfreeze);
+	
+function unfreeze() {
+	document.getElementById("html-started").style.visibility = "visible";
+	document.getElementById("html-freeze").remove();
+	document.body.style.backgroundImage = "url('void.gif')";
+	document.getElementById("audio").play();
+}
+
+// empty keeps the div but removes everything inside
+// document.getElementById("audio").muted = false; // Chrome refuses to autoplay audio EVEN IF MUTED so play has to be done manually.
+	</script>
+  </body>
+</html>

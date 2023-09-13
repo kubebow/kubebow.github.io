@@ -1,0 +1,75 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+	image-rendering: crisp-edges;
+	background-size: 100%;
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	box-sizing: border-box;
+}
+
+/* Text at the very top and bottom of the page */
+.title {
+	text-align: center;
+}
+
+/* Container for everything, excluding title */
+#centerDiv {
+	/*background-color:grey;*/
+	display: flex;
+	justify-content: center;
+}
+
+/* Artist picture and info text container.
+Text is contained in a sub-container in order to allow the artist pic to be center-aligned. */
+#infoDiv {
+	/*background-color:LightSkyBlue;*/
+	width:25%;
+	margin: 5px;
+	text-align: center; /* Used for the image only */
+}
+/* Container for link buttons */
+#buttonDiv {
+	/*background-color:lightpink;*/
+	margin: 5px;
+	width:25%;
+	display: flex;
+	flex-direction: column;
+} /* Individual buttons */
+.button {
+	color: black;
+	margin: 5px;
+	background-color: white;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+}
+
+/* Tomaroen colors for highlights and buttons */
+.faas {background-color: orange;}
+.slaa {background-color: purple;}
+.lii  {background-color: green;}
+.daw  {background-color: red;}
+.ray  {background-color: yellow;}
+.may  {background-color: blue;}
+.sor  {background-color: lime;}
+.laug {background-color: magenta;}
+.faph {background-color: maroon;}
+.iis  {background-color: saddlebrown;}
+.tiib {background-color: orangered;}
+.dol  {background-color: dodgerblue;}
+.reyn {background-color: greenyellow;}
+.semi {background-color: black;}
+.demi {background-color: dimgrey;}
+.hemi {background-color: white;}
+.tiik {background-color: springgreen;}
+.maak {background-color: cyan;}
+.tuuk {background-color: navy;}

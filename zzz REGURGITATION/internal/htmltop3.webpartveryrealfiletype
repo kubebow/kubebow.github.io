@@ -1,0 +1,13 @@
+/index.html">
+			<span id="parentDirText">[parent directory]</span>
+			</a>
+		</div>
+	<table>
+		<thead>
+			<tr class="header" id="theader">
+				<th>Name</th>
+				<th>Size</th>
+				<th>Date modified</th>
+				</tr>
+			</thead>
+		<tbody id="tbody">
