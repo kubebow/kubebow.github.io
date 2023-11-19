@@ -13,35 +13,29 @@
     <meta content="https://kubebow.github.io/tech/preview-colpal.png" property="og:image" />
     <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
 	</head>
-<body style="background-color: black;">
+<body style="
+background-color: black;
+">
 	<div id="face" style="
 	display: block;
-	color: white;">
+	color: white;
+	max-width: 500px;
+	text-align: center;
+	">
 		<div id="titleTxt">
 			<h1>Welcome to Square1!</h1>
 			<!--<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>-->
 			</div>
-		<a href="index.html"><img class="palette" id="kb" src="assets0/palette-kb.png" alt="KubeBow" style="
-		width:20%;
-		border:hidden;
-		filter: grayscale(100%);
-		"></a><br>
-		<a href="zone-440.html"><img class="palette" id="440" src="assets0/palette-440.png" alt="Zone-440" style="
-		width:20%;
-		border:hidden;
-		filter: grayscale(100%);
-		"></a><br>
-		<a href="https://djsqarxz.carrd.co/"><img class="palette" id="opt1" src="assets0/palette-opt1.png" alt="Option1" style="
-		width:20%;
-		border:hidden;
-		filter: grayscale(100%);
-		"></a><br>
+		<a href="index.html"><img class="palette" id="kb" src="assets0/sq1-tomaroh.png" alt="Tomaroh"></a><br>
+		<a href="zone-440.html"><img class="palette" id="440" src="assets0/sq1-bubbles.png" alt="Bubbles"></a><br>
+		<a href="index.html"><img class="palette" id="out" src="assets0/sq1-outside.png" alt="Outside"></a><br>
+		<a href="https://djsqarxz.carrd.co/"><img class="palette" id="opt1" src="assets0/palette-opt1.png" alt="Option1"></a><br>
 		<div>
-			<h1 id="paletteTitle">Please Choose a Color Palette</h1>
-			<p id="paletteDesc">Mouse over a palette for more info</p>
+			<h1 id="paletteTitle">Please Choose a Division</h1>
+			<p id="paletteDesc" style="text-align:left;">Mouse over a palette for more info</p>
 			<!--<p><strong>If this page seems to not be working correctly head over to <a href="https://kubebow.carrd.co">My Carrd</a>.</strong></p>-->
-			</div>
 		</div>
+	</div>
 <script>
 var palettes = document.getElementsByClassName("palette");
 var paletteTitle = document.getElementById("paletteTitle");
@@ -72,16 +66,20 @@ function update() {
 	document.getElementById(current).style.filter = "grayscale(0%)";
 	// Update textfile:///C:/Users/Kaden/Desktop/Folder/git/kubebow.github.io/index.html
 	if (current == "kb") {
-		paletteTitle.innerHTML = "KubeBow";
-		paletteDesc.innerHTML = "My solo projects!<br>I do a bit of everything, but it all somehow connects in the end.";
+		paletteTitle.innerHTML = "Tomaroh";
+		paletteDesc.innerHTML = "&emsp; Canonical projects, somewhat lore based. At the moment all projects are solo projects by me, KubeBow, but this is likely to change someday. Projects are grouped by era, which are used to explore specific story/lore ideas over several releases at a time. The story is constantly morphing and overwriting itself, but there are many concepts that persist throughout everything.";
 		}
 	if (current == "440") {
-		paletteTitle.innerHTML = "Zone-440";
-		paletteDesc.innerHTML = "Music-centric discord community turned internet band.<br>This community/band is managed by KubeBow but spans way WAYY further than just me."
+		paletteTitle.innerHTML = "Bubbles";
+		paletteDesc.innerHTML = "&emsp; Collaborative projects managed by KubeBow and created inside our Discord community. Zone-440 is our internet band, most well known for Broken Ringerphone (GPJ)."
+		}
+	if (current == "out") {
+		paletteTitle.innerHTML = "The Outside";
+		paletteDesc.innerHTML = "&emsp; Same deal as Tomaroh, but with a much looser canon. Many projects don't have any actual meaning, often up to interpretation, or are much more experimental and impulsive with it's decisions. Tomaroh and The Outside often affect each other, but The Outside is untrustworthy on its own.";
 		}
 	if (current == "opt1") {
 		paletteTitle.innerHTML = "Option1";
-		paletteDesc.innerHTML = "<img style='width:10%; border:none;' src='assets0/IMAGE_THAT_DOESNT_BREAK_YOUR_COMPUTER.png'></img>"
+		paletteDesc.innerHTML = "<img style='width:100%; border:none;' src='assets0/IMAGE_THAT_DOESNT_BREAK_YOUR_COMPUTER.png'></img>"
 		}
 }
 	</script>
