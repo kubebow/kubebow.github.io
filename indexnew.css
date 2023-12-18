@@ -1,0 +1,156 @@
+/* Homepage/general CSS */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+	image-rendering: crisp-edges;
+	background-size: 100%;
+	text-align: center;
+	background-image: url('bg.jpg');
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	box-sizing: border-box;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	#sidesdiv {
+		width: 500px;
+		
+		display: flex;
+		justify-content:center;
+		column-gap:20px;
+		flex-wrap:wrap;
+		
+		margin: auto;
+		padding: 10px;
+	}
+}
+/* Desktop */
+@media not screen and (max-width: 600px) {
+	#sidesdiv {
+		width: 600px;
+		
+		display: flex;
+		justify-content:center;
+		gap:20px;
+		flex-wrap:nowrap;
+		
+		margin: auto;
+		padding: 10px;
+	}
+}
+
+/* The container for all link buttons */
+#buttonDiv {
+	width:50%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction:column;
+	gap: 10px;
+} /* Individual buttons */
+.button {
+	border-style: solid;
+	border-width: 5px;
+	
+	box-sizing: border-box;
+	padding: 10px;
+	
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+/* Tomaroen colors for highlights and buttons */
+.faas {background-color: orange;}
+.slaa {background-color: MediumOrchid;}
+.lii  {background-color: green;}
+.daw  {background-color: red;}
+.ray  {background-color: yellow;}
+.may  {background-color: blue;}
+.sor  {background-color: lime;}
+.laug {background-color: magenta;}
+.faph {background-color: maroon;}
+.iis  {background-color: saddlebrown;}
+.tiib {background-color: orangered;}
+.dol  {background-color: dodgerblue;}
+.reyn {background-color: greenyellow;}
+.semi {background-color: rgba(50,50,50,255);}
+.demi {background-color: dimgrey;}
+.hemi {background-color: white;}
+.tiik {background-color: springgreen;}
+.maak {background-color: cyan;}
+.tuuk {background-color: darkblue;}
+/* Alternate hover colors */
+.H-faas:hover {background-color: orange;}
+.H-slaa:hover {background-color: MediumOrchid;}
+.H-lii:hover  {background-color: green;}
+.H-daw:hover  {background-color: red;}
+.H-ray:hover  {background-color: yellow;}
+.H-may:hover  {background-color: blue;}
+.H-sor:hover  {background-color: lime;}
+.H-laug:hover {background-color: magenta;}
+.H-faph:hover {background-color: maroon;}
+.H-iis:hover  {background-color: saddlebrown;}
+.H-tiib:hover {background-color: orangered;}
+.H-dol:hover  {background-color: dodgerblue;}
+.H-reyn:hover {background-color: greenyellow;}
+.H-semi:hover {background-color: rgba(50,50,50,255);}
+.H-demi:hover {background-color: dimgrey;}
+.H-hemi:hover {background-color: white;}
+.H-tiik:hover {background-color: springgreen;}
+.H-maak:hover {background-color: cyan;}
+.H-tuuk:hover {background-color: darkblue;}
+/* Faded color variants */
+.F-faas {background-color: burlywood;}
+.F-slaa {background-color: plum;}
+.F-lii  {background-color: mediumseagreen;}
+.F-daw  {background-color: lightcoral;}
+.F-ray  {background-color: peachpuff;}
+.F-may  {background-color: lightsteelblue;}
+.F-sor  {background-color: palegreen;}
+.F-laug {background-color: violet;}
+.F-faph {background-color: rosybrown;}
+.F-iis  {background-color: #BF945F;}
+.F-tiib {background-color: darksalmon;}
+.F-dol  {background-color: lightskyblue;}
+.F-reyn {background-color: olive;}
+.F-semi {background-color: grey;}
+.F-demi {background-color: darkgrey;}
+.F-hemi {background-color: lightgrey;}
+.F-tiik {background-color: Aquamarine;}
+.F-maak {background-color: lightblue;}
+.F-tuuk {background-color: #7BA6C6;}
+/* Text color */
+.C-faas {color: orange;}
+.C-slaa {color: MediumOrchid;}
+.C-lii  {color: green;}
+.C-daw  {color: red;}
+.C-ray  {color: yellow;}
+.C-may  {color: blue;}
+.C-sor  {color: lime;}
+.C-laug {color: magenta;}
+.C-faph {color: maroon;}
+.C-iis  {color: saddlebrown;}
+.C-tiib {color: orangered;}
+.C-dol  {color: dodgerblue;}
+.C-reyn {color: greenyellow;}
+.C-semi {color: rgba(50,50,50,255);}
+.C-demi {color: dimgrey;}
+.C-hemi {color: white;}
+.C-tiik {color: springgreen;}
+.C-maak {color: cyan;}
+.C-tuuk {color: darkblue;}
+/* Zone-440 */
+.zoneA {background-color: #8A61C5;}
+.zoneB {background-color: #B761C5;}
+.zoneC {background-color: #C561A8;}
+.zoneD {background-color: #C5617B;}
+.zoneE {background-color: #C57561;}
+.zoneF {background-color: #C5A161;}
+.zoneG {background-color: #BDC561;}
+.H-zone:hover {background-color: white;}
