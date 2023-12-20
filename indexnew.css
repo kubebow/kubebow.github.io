@@ -19,7 +19,7 @@ p {
 }
 
 /* Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	#sidesdiv {
 		width: 500px;
 		
@@ -33,7 +33,7 @@ p {
 	}
 }
 /* Desktop */
-@media not screen and (max-width: 600px) {
+@media not screen and (max-width: 1000px) {
 	#sidesdiv {
 		width: 1000px;
 		
