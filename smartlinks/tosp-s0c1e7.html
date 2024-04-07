@@ -29,7 +29,9 @@
 			width:100%;
 			">
 				<!-- YOUTUBE (FULL) --><a id="youtube_fl" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>YouTube (Full Video)</span><img class="buttonIcon"></div></a>
+				<!-- BITVIEW (FULL) --><a id="bitview_fl" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>BitView (Full Video)</span><img class="buttonIcon"></div></a>
 				<!-- YOUTUBE (SEPERATED) --><a id="youtube_sp" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>YouTube (Playlist)</span><img class="buttonIcon"></div></a>
+				<!-- BITVIEW (SEPERATED) --><a id="bitview_sp" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>BitView (Playlist)</span><img class="buttonIcon"></div></a>
 				<!-- BANDCAMP (OPTION1) --><a id="bandcamp_opt" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Bandcamp (Option1)</span><img class="buttonIcon"></div></a>
 				<!-- BANDCAMP (SQUARE1) --><a id="bandcamp_sq1" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Bandcamp (Square1)</span><img class="buttonIcon"></div></a>
 				<!-- SOUNDCLOUD --><a id="soundcloud" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>SoundCloud</span><img class="buttonIcon"></div></a>
@@ -52,9 +54,11 @@
 	// LINKS
 	var youtube_fl   = "https://www.youtube.com/watch?v=oQVwyM6csYY"; // single video, album upload
 	var youtube_sp   = ""; // multiple videos in playlist, single uploads
+	var bitview_fl   = "https://www.bitview.net/watch?v=q8jMBTdl";
+	var bitview_sp   = "";
 	var bandcamp_opt = "";
 	var bandcamp_sq1 = "https://kubebow.bandcamp.com/album/new-kubebow-4-7-version-sp";
-	var soundcloud   = "";
+	var soundcloud   = "https://soundcloud.com/kubebow/tosp-s0c1e7";
 	var itch         = "";
 	var archiveOrg   = "";
 	var ffm          = "";
@@ -65,7 +69,7 @@
 	//
 	//
 	// Plug links in
-	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk"];
+	const buttons = ["youtube_fl","youtube_sp","bitview_fl","bitview_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk"];
 	for (const element of buttons) {
 		if (window[element] == "") {document.getElementById(element).remove()}
 		else {document.getElementById(element).href=window[element];}
