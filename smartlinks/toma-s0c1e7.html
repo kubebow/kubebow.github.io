@@ -36,7 +36,9 @@
 				<!-- ITCH.IO --><a id="itch" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Itch.io</span><img class="buttonIcon"></div></a>
 				<!-- ARCHIVE.ORG --><a id="archiveOrg" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Archive.org</span><img class="buttonIcon"></div></a>
 				<!-- SMARTLINK --><a id="ffm" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Streaming Services*</span><img class="buttonIcon"></div></a>
-				<!-- RELATED --><a id="rellnk" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellab">RELATED: </span><img class="buttonIcon"></div></a>
+				<!-- RELATED -->
+				<a id="rellnk" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellab"></span><img class="buttonIcon"></div></a>
+				<a id="rellnkb" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellabb"></span><img class="buttonIcon"></div></a>
 			</div>
 		</div>
 		<p>(* Please note that Streaming Services often have alterations to releases, ESPECIALLY titles.)</p>
@@ -45,10 +47,11 @@
 <script>
 	// METADATA
 	var title        = "Cartesian Vertical (LS)";
-	var cover        = "../discog/toma-s0c1e7p1.png";
+	var cover        = "../icon/ph.png"; // "../discog/toma-s0c1e7p1.png"
 	var labelid      = "[([ toma-s0c1e7 ])]";
 	var flavor       = "🕓 COMING SOON 🕖";
-	var rellab       = "New KubeBow (4/7 Version) [SP]";
+	var rellab       = "SINGLE: New KubeBow (4/7 Version)";
+	var rellabb      = "RELATED: Cartesian Horizontal";
 	// LINKS
 	var youtube_fl   = ""; // single video, album upload
 	var youtube_sp   = ""; // multiple videos in playlist, single uploads
@@ -59,19 +62,20 @@
 	var archiveOrg   = "";
 	var ffm          = "";
 	var rellnk       = "https://kubebow.github.io/smartlinks/tosp-s0c1e7.html";
+	var rellnkb      = "zout-s0c1e7.html";
 	// SITE
 	var bg         = "url('../assets0/bg.jpg')";
 	//
 	//
 	//
 	// Plug links in
-	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk"];
+	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk","rellnkb"];
 	for (const element of buttons) {
 		if (window[element] == "") {document.getElementById(element).remove()}
 		else {document.getElementById(element).href=window[element];}
 	}
 	// Plug meta in
-	const meta = ["title","labelid","flavor","rellab"];
+	const meta = ["title","labelid","flavor","rellab","rellabb"];
 	for (const element of meta) {
 		document.getElementById(element).innerHTML+=window[element];
 	}
