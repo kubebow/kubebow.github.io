@@ -40,6 +40,7 @@
 				<a id="rellnkb" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellabb"></span><img class="buttonIcon"></div></a>
 				<a id="rellnk" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellab"></span><img class="buttonIcon"></div></a>
 				<a id="rellnkc" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellabc"></span><img class="buttonIcon"></div></a>
+				<a id="rellnkd" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellabd"></span><img class="buttonIcon"></div></a>
 			</div>
 		</div>
 		<p>(* Please note that Streaming Services often have alterations to releases, ESPECIALLY titles.)</p>
@@ -48,12 +49,13 @@
 <script>
 	// METADATA
 	var title        = "Cartesian Horizontal (LS)";
-	var cover        = "../icon/ph.png"; // "../discog/zout-s0c1e7p1.png"
+	var cover        = "../discog/zout-s0c1e7.png";
 	var labelid      = "[([ zout-s0c1e7 ])]";
 	var flavor       = "🕓 COMING SOON 🕖";
 	var rellab       = "RELATED SINGLE: New KubeBow (4/7 Version)";
 	var rellabb      = "TEASER: Arpy 7s (Bonus Track)";
-	var rellabc      = "RELATED: Cartesian Vertical";
+	var rellabc      = "SIBLING: Cartesian Vertical";
+	var rellabd      = "PAIR COMP: Cartesian (Complete)";
 	// LINKS
 	var youtube_fl   = ""; // single video, album upload
 	var youtube_sp   = ""; // multiple videos in playlist, single uploads
@@ -63,22 +65,23 @@
 	var itch         = "";
 	var archiveOrg   = "";
 	var ffm          = "";
-	var rellnk       = "https://kubebow.github.io/smartlinks/tosp-s0c1e7.html";
+	var rellnk       = "tosp-s0c1e7.html";
 	var rellnkb      = "https://www.youtube.com/watch?v=gEQaRud5SZI&list=PLXFwjjMXgDZGNttYHnYke7PrAJmatN8eY&index=1";
 	var rellnkc      = "toma-s0c1e7.html";
+	var rellnkd      = "todx-s0c1e7.html";
 	// SITE
 	var bg         = "url('../assets0/bg.jpg')";
 	//
 	//
 	//
 	// Plug links in
-	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk","rellnkb","rellnkc"];
+	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk","rellnkb","rellnkc","rellnkd"];
 	for (const element of buttons) {
 		if (window[element] == "") {document.getElementById(element).remove()}
 		else {document.getElementById(element).href=window[element];}
 	}
 	// Plug meta in
-	const meta = ["title","labelid","flavor","rellab","rellabb","rellabc"];
+	const meta = ["title","labelid","flavor","rellab","rellabb","rellabc","rellabd"];
 	for (const element of meta) {
 		document.getElementById(element).innerHTML+=window[element];
 	}
