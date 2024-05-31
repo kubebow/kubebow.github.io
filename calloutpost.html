@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
+<!--
+
+Howdy! If you are reading this you are a certified nerd. Nerd!!!!!!!!!!!!!!
+
+   #
+  ###
+ # # #
+#  #  #
+   #
+   #
+   #
+
+For real though, this page is for a little arg puzzle hunt kind of thing.
+This exists due to the recent Zone-440 albums The Cycle and Mitosis.
+
+I'm leaving this note here to let you know that this will be REALLY simple and REALLY easily cheatable.
+I am not here to make an actually good arg or anything,
+I just felt like adding a cute little easter egg in the midst of all this.
+
+Becuase of how this particular set of puzzles will be set up, I ask that you do NOT use Inspect Element.
+I will make no effort to make the puzzles uncheatable, and because of which it will be fully possible to just... open the webpage and read the answer right there.
+If you really want to not have any fun and just skip to the end of it all, that's your problem not mine.
+Just don't spoil others' fun alright?
+
+~ Luv u, mwah, KubeBow ~
+
+https://kubebow.github.io/smartlinks/bblz-gpjs2x
+https://kubebow.github.io/zone-440
+
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/assets1/calloutpost.ico">
-    <title>KubeBow (Err:∅∅∅)</title>
+    <title>KubeBow (Err:440)</title>
     <meta content="website" property="og:type" />
     <meta content="this dude really just sent KubeBow's 404 Page :calloutpost:" property="og:title" />
     <meta content="*:calloutpost: react this [**gender here**]!*" property="og:description" />
@@ -14,7 +44,7 @@
 </head>
 <body style="
 background-color: black;
-color: black;
+color: white;
 font-family: 'Comic Sans MS', monospace;
 ">
 	<h1>come back later...</h1>
@@ -22,15 +52,30 @@ font-family: 'Comic Sans MS', monospace;
 	border-style:none;
 	width:5%;
 	">
-<!--
+	<br><br><br><br><br><br><br><br><br>
+	
+	<!-- https://github.com/toperkin/staticFormEmails/blob/master/README.md -->
+	
+	<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdSf7DTvciv4LhNRRZ3ohzQMtXn1Zy738H0ZxfaPdgxq9jqYA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;done();">
+		Input your email:<br>
+		<input type="text" name="entry.476656080" id="entry.476656080">
+		<input type="submit" value="Notify me">
+	</form>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
 <script>
-// If user clicks an image, redirect them to the image's url
-var imgs = document.getElementsByTagName("img");
-for (var i = 0; i < imgs.length; i++) {
-	imgs[i].addEventListener('click', function() {
-		document.location = this.src;
-	});
-};
+function done() {
+	document.getElementById('gform').remove();
+	alert("Email recieved. You will be emailed by kubebow.square1@gmail.com when this site is open. Your email will not be saved afterwards.");
+}
 </script>
+<!--
+// If user clicks an image, redirect them to the image's url
+// var imgs = document.getElementsByTagName("img");
+// for (var i = 0; i < imgs.length; i++) {
+// 	imgs[i].addEventListener('click', function() {
+// 		document.location = this.src;
+// 	});
+// };
 -->
 </body></html>
