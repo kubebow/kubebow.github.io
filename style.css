@@ -82,6 +82,11 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 	vertical-align:middle;
 	border-width: 1px;
 	width: 10%;
+} /* Alt button icon */
+.bblzbuttonIcon {
+	vertical-align:middle;
+	border-width: 1px;
+	width: 66px;
 } /* Alternate button class */
 .bd {
 	padding: 10px;
