@@ -100,13 +100,14 @@ Text is contained in a sub-container in order to allow the artist pic to be cent
 }
 
 /* Latest section */
-#latest {
+.latest {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
 	/*
 	margin: 1px;
-	width:25%;
 	flex-direction: column;
 	*/
 } /* Release sub-section */
