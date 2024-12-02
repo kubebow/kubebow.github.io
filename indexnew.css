@@ -2,67 +2,134 @@
 
 body {
 	background-color: white;
+	background-size: 100%;
+	background-image: url('assets0/bg.jpg');
 	color: black;
 	font-family: Verdana;
 	image-rendering: crisp-edges;
-	background-size: 100%;
 	text-align: center;
-	background-image: url('bg.jpg');
 }
 img {
 	border-style: solid;
 	border-width: 5px;
 	box-sizing: border-box;
 }
-p {
-	font-size: 24px;
+img:hover:not(.unviewable) {
+  box-shadow: 0 0 15px 5px rgba(0, 140, 186, 0.5);
 }
 
+hr {
+	border: 10px dashed black;
+}
+
+.latest {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
+	/*
+	margin: 1px;
+	flex-direction: column;
+	*/
+}
+
+.latest div{
+	max-width:600px;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+
 /* Mobile */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1070px) {
+	/*
+	body {
+		background-color: blue;
+	}
+	*/
+	#tdsk {
+		display: none;
+	}
+	#tmob {
+		display: visible;
+	}
+	p {
+		font-size: 18px;
+	}
 	#sidesdiv {
-		width: 500px;
+		width: 95%;
 		
 		display: flex;
+		flex-flow:row wrap;
 		justify-content:center;
-		column-gap:20px;
-		flex-wrap:wrap;
+		gap:20px;
 		
 		margin: auto;
 		padding: 10px;
+	}
+	/* #infoDiv{
+		max-width:500px;
+		text-align:left;
+	} */
+	#sidesdiv img{
+		width:100%;
+		max-width:200px;
+	}
+	#buttonDiv {
+		width:100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction:column;
+		gap: 10px;
 	}
 }
 /* Desktop */
-@media not screen and (max-width: 1000px) {
+@media not screen and (max-width: 1070px) {
+	/*
+	body {
+		background-color: red;
+	}
+	*/
+	#tdsk {
+		display: visible;
+	}
+	#tmob {
+		display: none;
+	}
+	p {
+		font-size: 24px;
+	}
 	#sidesdiv {
-		width: 1000px;
+		width: 95%;
 		
 		display: flex;
+		flex-flow:row wrap;
 		justify-content:center;
 		gap:20px;
-		flex-wrap:nowrap;
 		
 		margin: auto;
 		padding: 10px;
 	}
-}
-
-#infoDiv{
-	max-width:500px;
-	text-align:left;
-}
-#infoDiv img{
-	width:90%;
+	/* #infoDiv{
+		max-width:500px;
+		text-align:left;
+	} */
+	#sidesdiv img{
+		width:100%;
+		max-width:550px;
+	}
+	#buttonDiv {
+		width:49%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction:column;
+		gap: 10px;
+	}
 }
 
 /* The container for all link buttons */
-#buttonDiv {
-	width:100%;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction:column;
-	gap: 10px;
-} /* Individual buttons */
+ /* Individual buttons */
 .button {
 	width:100%;
 	border-style: solid;
