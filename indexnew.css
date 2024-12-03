@@ -15,7 +15,10 @@ img {
 	box-sizing: border-box;
 }
 img:hover:not(.unviewable) {
-  box-shadow: 0 0 15px 5px rgba(0, 140, 186, 0.5);
+	box-shadow: 0 0 15px 5px rgba(0, 140, 186, 0.5);
+}
+#selected {
+	box-shadow: 0 0 15px 5px rgba(186, 140, 0, 0.5);
 }
 
 hr {
@@ -33,11 +36,50 @@ hr {
 	flex-direction: column;
 	*/
 }
-
 .latest div{
 	max-width:600px;
 	padding-left:100px;
 	padding-right:100px;
+}
+
+#calendar {
+	/* Everything (except the title/description text above) */
+	display:flex;
+	flex-flow:row-reverse wrap;
+	justify-content:center;
+	gap:50px;
+}
+#calendar img {
+	/* View (and icons) */
+	width:100%;
+	max-width:500px;
+	image-rendering: auto;
+}
+#calendar div p {
+	/* Directions */
+	font-size: 16px;
+}
+#calendar div div {
+	/* Calendar grid */
+	display:inline-grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	max-width:400px;
+	gap:8px;
+}
+#calendar div div p {
+	/* Weekdays */
+	font-size: 16px;
+	font-weight: bold;
+}
+#calendar div div div {
+	/* Day in calendar */
+	display:flex;
+	align-items:center;
+}
+#calendar div div div img {
+	/* Icon today */
+	border-style: none;
+	max-width:50px;
 }
 
 
