@@ -51,6 +51,7 @@ hr {
 }
 #calendar img {
 	/* View (and icons) */
+	align-self:center;
 	width:100%;
 	max-width:500px;
 	image-rendering: auto;
