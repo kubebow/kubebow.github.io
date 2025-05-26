@@ -4,6 +4,7 @@ body {
 	background-color: white;
 	color: black;
 	font-family: Verdana;
+	image-rendering: pixelated;
 	image-rendering: crisp-edges;
 	background-size: 100%;
 	text-align: center;

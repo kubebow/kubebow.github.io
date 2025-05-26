@@ -54,13 +54,15 @@
 				">])] pages. <a href="select.html" class="C-slaa" style="
 					font-size:18px;
 					">(SWAP LABELS/DISCOG HERE)</a><br></mark>
-				<audio autoplay loop controls id="audTheme" src="assets0/zone440-alailoop.mp3" type="audio/mp3"><p style="
+				<audio autoplay loop controls id="audTheme" src="assets0/zone440-alailoop.mp3" type="audio/mp3"></audio>
+				<audio autoplay loop controls id="audThemeFool" src="assets0/alaiklown.mp3" type="audio/mp3"></audio>
+			</p>
+			<p style="
 				color: black;
 				position: relative;
 				bottom: 45px;
 				font-size: 12px;
-				"><mark style="background-color:rgba(255,255,255,255.3);">Song: Zone-440 - alaikaza (Formerly "")</mark></p></audio>
-				</p>
+				"><mark id="audcred" style="background-color:rgba(255,255,255,255.3);">Song: Zone-440 - alaikaza (Formerly "")</mark></p>
 		</div>
 	<div id="face" style="
 	display: block;
@@ -183,14 +185,30 @@
 		</div>
 			</div>
 	<!-- Audio players -->
+	<!--
 	<div id="masterbus">
 		<audio id="doraud0" src="assets1/door0.mp3" type="audio/mp3"></audio>
 		<audio id="doraud1" src="assets1/door1.mp3" type="audio/mp3"></audio>
 		<audio id="sq1load" src="assets1/sq1load.mp3" type="audio/mp3"></audio>
 		<audio loop id="ΘΘΘ" src="assets1/ΘΘΘ.mp3" type="audio/mp3"></audio>
 		<audio loop id="++±aud" src="assets1/++±.mp3" type="audio/mp3"></audio>
-		</div>
+	</div>
+	-->
 <script>
+var date = new Date(Date.now());
+var a = date.getMonth();
+var b = date.getDate();
+if (a == 3 && b == 1) {
+	console.log("yeah");
+	document.getElementById("audThemeFool").play();
+	document.getElementById("audTheme").remove();
+	document.getElementById("audcred").innerHTML += "<br>(ty kirbycreep for the rip!)";
+}
+else {
+	console.log("nah");
+	document.getElementById("audTheme").play();
+	document.getElementById("audThemeFool").remove();
+};
 // Lightswitch (used to bypass autoplay audio blocking)
 document.getElementById('switch').addEventListener('click', function() {
 //	document.body.style.backgroundImage = "url('assets0/bg-zone.jpg')";
@@ -201,6 +219,7 @@ document.getElementById('switch').addEventListener('click', function() {
 	document.getElementById("sq1load").play();
 	document.getElementById("audTheme").play();
 	document.getElementById("audTheme").controls = true;
+	document.getElementById("audThemeFool").controls = true;
 	// this.remove();
 	});
 	</script>

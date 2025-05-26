@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="smartlinks-style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://kubebow.github.io/favicon.ico">
+    <meta content="website" property="og:type" />
+    <meta content="#BF00BF" data-react-helmet="true" name="theme-color" />
+	<meta name="p:domain_verify" content="e8176958c4a704bcd26dbbde5538af4a"/>
+	
+    <title>Broken Rotaryphone, Season 1 (Unpolished) [MB] {Smartlink}</title>
+    <meta content="Zone-440 - Broken Rotaryphone, Season 1 (Unpolished) [MB]" property="og:title" />
+    <meta content="Square1 smartlink for [([ zalt-gpa1 ])]
+	Unpolished versions of tracks made during the GPA1 event" property="og:description" />
+    <meta content="https://kubebow.github.io/smartlinks/zalt-gpa1" property="og:url" />
+</head>
+<body style="background-image: url('../assets0/bg.jpg');">
+	<div id="face" style="
+	display: block;
+	border-style: none;
+	">
+		<img id="cover" alt="Cover art" style="
+			width:50%;
+			color:black;
+			max-width: 200px;
+			">
+		<h2 id="title"></h2>
+		<strong id="flavor"></strong>
+		<p id="labelid"></p>
+		<div id="headDiv">
+			<div id="buttonDiv" style="
+			text-align:center;
+			width:100%;
+			">
+				<!-- YOUTUBE (FULL) --><a id="youtube_fl" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>YouTube (Full Video)</span><img class="buttonIcon"></div></a>
+				<!-- YOUTUBE (SEPERATED) --><a id="youtube_sp" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>YouTube (Playlist)</span><img class="buttonIcon"></div></a>
+				<!-- BANDCAMP (OPTION1) --><a id="bandcamp_opt" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Bandcamp (Option1)</span><img class="buttonIcon"></div></a>
+				<!-- BANDCAMP (SQUARE1) --><a id="bandcamp_sq1" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Bandcamp (Square1)</span><img class="buttonIcon"></div></a>
+				<!-- SOUNDCLOUD --><a id="soundcloud" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>SoundCloud</span><img class="buttonIcon"></div></a>
+				<!-- ITCH.IO --><a id="itch" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Itch.io</span><img class="buttonIcon"></div></a>
+				<!-- ARCHIVE.ORG --><a id="archiveOrg" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Archive.org</span><img class="buttonIcon"></div></a>
+				<!-- SMARTLINK --><a id="ffm" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span>Streaming Services*</span><img class="buttonIcon"></div></a>
+				<!-- RELATED -->
+				<a id="rellnk" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellab"></span><img class="buttonIcon"></div></a>
+				<a id="rellnkb" style="display:none;" class="button F-hemi H-hemi"><div class="buttonInnerDiv"><img class="buttonIcon"><span id="rellabb"></span><img class="buttonIcon"></div></a>
+			</div>
+		</div>
+		<p>(* Please note that Streaming Services often have alterations to releases, ESPECIALLY titles.)</p>
+		<a href="https://kubebow.github.io">Our Homepage</a>
+	</div>
+<script>
+	// METADATA
+	var title        = "Zone-440 - Broken Rotaryphone, Season 1 (Unpolished) [MB]";
+	var cover        = "../discog/zalt-gpa1.png";
+	var labelid      = "[([ zalt-gpa1 ])]";
+	var flavor       = "Thank you for participating.";
+	// SPECIAL BUTTONS
+	var rellab       = "Listening Party VOD";
+	var rellabb      = "guh";
+	// LINKS
+	var youtube_fl   = "https://www.youtube.com/watch?v=zhzcgOCWwIg&list=PLXFwjjMXgDZHilp56t4z3t3mrIwPXd-it&index=42"; // single video, album upload
+	var youtube_sp   = ""; // multiple videos in playlist, single uploads
+	var bandcamp_opt = "https://djsqarxz.bandcamp.com/album/broken-rotaryphone-season-1-unpolished-mb";
+	var bandcamp_sq1 = "";
+	var soundcloud   = "https://soundcloud.com/zone-440/sets/zalt-gpa1";
+	var itch         = "";
+	var archiveOrg   = "https://archive.org/details/zalt-gpa1";
+	var ffm          = "";
+	var rellnk       = "https://www.youtube.com/watch?v=xDTCxc-SaKo&list=PLXFwjjMXgDZHilp56t4z3t3mrIwPXd-it&index=45"; // LP
+	var rellnkb      = "google.com";
+	// SITE
+	var bg         = "url('../assets0/bg-zone_alt.jpg')";
+	// pink          - bg.jpg
+	// blue sky      - bg-sky.jpg
+	// black sky     - bg-sky_alt.jpg
+	// thumpnail v1  - bg-thump.jpg
+	// thumpnail v2  - bg-thump_1984edition.jpg
+	// zone-440      - bg-zone.jpg
+	// zone-440 flip - bg-zone.jpg
+	// zone-440 sym  - bg-zone_ytpVERIZONPASTE.png
+	// zone-440 zalt - bg-zone_alt.jpg
+	//
+	//
+	//
+	// Plug links in
+	const buttons = ["youtube_fl","youtube_sp","bandcamp_opt","bandcamp_sq1","soundcloud","itch","archiveOrg","ffm","rellnk","rellnkb"];
+	for (const element of buttons) {
+		if (window[element] == "") {document.getElementById(element).remove()}
+		else {document.getElementById(element).href=window[element];}
+	}
+	// Plug meta in
+	const meta = ["title","labelid","flavor","rellab","rellabb"];
+	for (const element of meta) {
+		document.getElementById(element).innerHTML+=window[element];
+	}
+	// Plug more in
+	document.getElementById("cover").src=cover; // COVER
+	document.body.style.backgroundImage=bg; // BG
+	// If user clicks an image, redirect them to the image's url
+	var imgs = document.getElementsByTagName("img");
+	for (var i = 0; i < imgs.length; i++) {
+		imgs[i].addEventListener('click', function() {
+			document.location = this.src;
+		});
+	};
+</script>
+</body></html>
